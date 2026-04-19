@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 31 17:37:42 2026
+# Process ID: 31636
+# Current directory: E:/FPGA_Project/2020_2/CNN/proj/ov5640_hdmi_v1/ov5640_hdmi_v1.runs/ov5640_hdmi_rst_ps7_0_50M_2_synth_1
+# Command line: vivado.exe -log ov5640_hdmi_rst_ps7_0_50M_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ov5640_hdmi_rst_ps7_0_50M_2.tcl
+# Log file: E:/FPGA_Project/2020_2/CNN/proj/ov5640_hdmi_v1/ov5640_hdmi_v1.runs/ov5640_hdmi_rst_ps7_0_50M_2_synth_1/ov5640_hdmi_rst_ps7_0_50M_2.vds
+# Journal file: E:/FPGA_Project/2020_2/CNN/proj/ov5640_hdmi_v1/ov5640_hdmi_v1.runs/ov5640_hdmi_rst_ps7_0_50M_2_synth_1\vivado.jou
+#-----------------------------------------------------------
+source ov5640_hdmi_rst_ps7_0_50M_2.tcl -notrace

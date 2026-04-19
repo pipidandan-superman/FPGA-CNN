@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Apr  5 09:20:17 2026
+# Process ID: 27732
+# Current directory: E:/FPGA_Project/2020_2/CNN/proj/ov5640_hdmi_v1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7052 E:\FPGA_Project\2020_2\CNN\proj\ov5640_hdmi_v1\ov5640_hdmi_v1.xpr
+# Log file: E:/FPGA_Project/2020_2/CNN/proj/ov5640_hdmi_v1/vivado.log
+# Journal file: E:/FPGA_Project/2020_2/CNN/proj/ov5640_hdmi_v1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr  5 09:20:30 2026...

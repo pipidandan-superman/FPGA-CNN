@@ -1,0 +1,8 @@
+set_property PACKAGE_PIN K17 [get_ports clk_in1_0]
+set_property IOSTANDARD LVCMOS33 [get_ports clk_in1_0]
+set_property PACKAGE_PIN H16 [get_ports TMDS_clk_p_0]
+set_property PACKAGE_PIN D19 [get_ports {TMDS_data_p_0[2]}]
+set_property PACKAGE_PIN C20 [get_ports {TMDS_data_p_0[1]}]
+set_property PACKAGE_PIN H18 [get_ports hdmi_en_0]
+set_property IOSTANDARD LVCMOS33 [get_ports hdmi_en_0]
+set_property PACKAGE_PIN B19 [get_ports {TMDS_data_p_0[0]}]

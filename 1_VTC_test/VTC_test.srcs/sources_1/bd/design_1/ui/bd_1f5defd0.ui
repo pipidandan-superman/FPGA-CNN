@@ -1,0 +1,41 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.849719",
+   "Default View_TopLeft":"-107,-7",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port TMDS_clk_n_0 -pg 1 -lvl 5 -x 1160 -y 300 -defaultsOSRD
+preplace port TMDS_clk_p_0 -pg 1 -lvl 5 -x 1160 -y 280 -defaultsOSRD
+preplace port clk_in1_0 -pg 1 -lvl 0 -x 0 -y 240 -defaultsOSRD
+preplace port hdmi_en_0 -pg 1 -lvl 5 -x 1160 -y 360 -defaultsOSRD
+preplace portBus TMDS_data_p_0 -pg 1 -lvl 5 -x 1160 -y 320 -defaultsOSRD
+preplace portBus TMDS_data_n_0 -pg 1 -lvl 5 -x 1160 -y 340 -defaultsOSRD
+preplace inst HDMI_top_0 -pg 1 -lvl 4 -x 980 -y 320 -defaultsOSRD
+preplace inst data_gen_0 -pg 1 -lvl 3 -x 650 -y 480 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 2 -x 360 -y 470 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 110 -y 240 -defaultsOSRD
+preplace inst v_tc_0 -pg 1 -lvl 2 -x 360 -y 120 -defaultsOSRD
+preplace netloc clk_wiz_0_pclk_x5 1 1 3 220 260 NJ 260 NJ
+preplace netloc clk_wiz_0_locked 1 1 3 210 280 NJ 280 NJ
+preplace netloc v_tc_0_active_video_out 1 2 2 490 400 NJ
+preplace netloc v_tc_0_hsync_out 1 2 2 N 120 810J
+preplace netloc v_tc_0_vsync_out 1 2 2 N 140 800J
+preplace netloc HDMI_top_0_TMDS_clk_n 1 4 1 NJ 300
+preplace netloc HDMI_top_0_TMDS_data_p 1 4 1 NJ 320
+preplace netloc HDMI_top_0_TMDS_clk_p 1 4 1 NJ 280
+preplace netloc HDMI_top_0_TMDS_data_n 1 4 1 NJ 340
+preplace netloc clk_in1_0_1 1 0 1 N 240
+preplace netloc data_gen_0_data_r_o 1 3 1 790 340n
+preplace netloc data_gen_0_data_g_o 1 3 1 800 360n
+preplace netloc data_gen_0_data_b_o 1 3 1 810 380n
+preplace netloc vio_0_probe_out0 1 2 1 NJ 470
+preplace netloc HDMI_top_0_hdmi_en 1 4 1 NJ 360
+preplace netloc clk_wiz_0_pclk 1 1 3 200 270 NJ 270 790J
+levelinfo -pg 1 0 110 360 650 980 1160
+pagesize -pg 1 -db -bbox -sgen -110 0 1350 560
+"
+}
+{
+   "da_clkrst_cnt":"2"
+}

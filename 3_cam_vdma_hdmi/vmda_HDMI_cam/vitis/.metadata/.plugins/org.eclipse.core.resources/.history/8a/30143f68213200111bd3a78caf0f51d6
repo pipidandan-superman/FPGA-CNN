@@ -1,0 +1,46 @@
+#include <stdio.h>
+#include "xil_io.h"
+#include "xparameters.h"
+
+//VDMA ���� ����ַ
+#define XPAR_AXI_VDMA_0_BASEADDR 0x43000000U
+#define XPAR_AXI_VDMA_0_HIGHADDR 0x4300FFFFU
+
+//VDMA �����Ĵ���ƫ�Ƶ�ַ
+#define MM2S_VDMACR 		0x00 //����VDMA
+#define MM2S_START_ADDRESS 	0x5c //��ʼ��ַ
+#define MM2S_FRMDLY_STRIDE 	0x58 //����
+#define MM2S_HSIZE 			0x54 //�гߴ�
+#define MM2S_VSIZE 			0x50 //�гߴ�
+
+//�������
+#define VDMA_OPEN			0x1
+#define	VDMA_START_ADDR		0x10000000
+#define VDMA_STRIDE			0x00000A00 //һ�е�����һ��
+#define VDMA_HSIZE			0x00000A00 //1280*2 �����ֽڼ���
+#define VDMA_VSIZE			0x000002D0 //720
+
+int  main(){
+	printf("VMDA_TEST BEGIN!\n");
+
+	// Step 1: 复位VDMA并使能
+	Xil_Out32(XPAR_AXI_VDMA_0_BASEADDR+MM2S_VDMACR, 0x00000004);  // 复位
+	// 等待复位完成
+	while((Xil_In32(XPAR_AXI_VDMA_0_BASEADDR+MM2S_VDMACR) & 0x00000004) == 0x00000004);
+
+	// Step 2: 配置VDMA寄存器（注意写入顺序：VSIZE必须最后写）
+	Xil_Out32(XPAR_AXI_VDMA_0_BASEADDR+MM2S_VDMACR,         VDMA_OPEN);           // 使能VDMA
+	Xil_Out32(XPAR_AXI_VDMA_0_BASEADDR+MM2S_START_ADDRESS,  VDMA_START_ADDR);     // 起始地址 0x10000000
+	Xil_Out32(XPAR_AXI_VDMA_0_BASEADDR+MM2S_FRMDLY_STRIDE,  VDMA_STRIDE);         // Stride = 2560 (1280*2字节)
+	Xil_Out32(XPAR_AXI_VDMA_0_BASEADDR+MM2S_HSIZE,          VDMA_HSIZE);          // 每行2560字节
+	Xil_Out32(XPAR_AXI_VDMA_0_BASEADDR+MM2S_VSIZE,          VDMA_VSIZE);          // 720行，最后写以启动传输
+
+	printf("VDMA Config Complete!\n");
+	printf("VDMACR: 0x%08X\n", Xil_In32(XPAR_AXI_VDMA_0_BASEADDR+MM2S_VDMACR));
+	printf("START_ADDR: 0x%08X\n", Xil_In32(XPAR_AXI_VDMA_0_BASEADDR+MM2S_START_ADDRESS));
+	printf("HSIZE: 0x%08X\n", Xil_In32(XPAR_AXI_VDMA_0_BASEADDR+MM2S_HSIZE));
+	printf("VSIZE: 0x%08X\n", Xil_In32(XPAR_AXI_VDMA_0_BASEADDR+MM2S_VSIZE));
+
+	printf("VMDA_TEST end!\n");
+	return 0;
+}

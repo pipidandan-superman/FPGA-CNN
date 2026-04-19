@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include "xil_io.h"
+#include "xparameters.h"
+
+//VDMA 控制 基地址
+#define XPAR_AXI_VDMA_0_BASEADDR 0x43000000U
+#define XPAR_AXI_VDMA_0_HIGHADDR 0x4300FFFFU
+
+//VDMA 各个寄存器偏移地址
+#define MM2S_VDMACR 		0x00 //开启VDMA
+#define MM2S_START_ADDRESS 	0x5c //起始地址
+#define MM2S_FRMDLY_STRIDE 	0x58 //步长
+#define MM2S_HSIZE 			0x54 //行尺寸
+#define MM2S_VSIZE 			0x50 //列尺寸
+
+
+
+int  main(){
+
+	xil_out32();
+	return 0;
+}

@@ -1,0 +1,82 @@
+Nothing to build in platform 'design_1_wrapper'
+
+10:22:47 **** Incremental Build of configuration Debug for project vdma_ctrl ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/main_vdma_read.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vdma_read.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/main_vdma_read.d" -MT"src/main_vdma_read.o" -o "src/main_vdma_read.o" "../src/main_vdma_read.c"
+../src/main_vdma_read.c: In function 'verify_memory':
+../src/main_vdma_read.c:70:32: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   70 |     printf("Base address: 0x%08X\n\n", base_addr);
+      |                             ~~~^       ~~~~~~~~~
+      |                                |       |
+      |                                |       u32 {aka long unsigned int}
+      |                                unsigned int
+      |                             %08lX
+../src/main_vdma_read.c: In function 'main':
+../src/main_vdma_read.c:136:32: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  136 |     printf("  VDMACR:     0x%08X\n", Xil_In32(XPAR_AXI_VDMA_0_BASEADDR + MM2S_VDMACR));
+      |                             ~~~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                |     |
+      |                                |     u32 {aka long unsigned int}
+      |                                unsigned int
+      |                             %08lX
+../src/main_vdma_read.c:137:32: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  137 |     printf("  START_ADDR: 0x%08X\n", Xil_In32(XPAR_AXI_VDMA_0_BASEADDR + MM2S_START_ADDRESS));
+      |                             ~~~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                |     |
+      |                                |     u32 {aka long unsigned int}
+      |                                unsigned int
+      |                             %08lX
+../src/main_vdma_read.c:138:32: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  138 |     printf("  STRIDE:     0x%08X\n", Xil_In32(XPAR_AXI_VDMA_0_BASEADDR + MM2S_FRMDLY_STRIDE));
+      |                             ~~~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                |     |
+      |                                |     u32 {aka long unsigned int}
+      |                                unsigned int
+      |                             %08lX
+../src/main_vdma_read.c:139:32: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  139 |     printf("  HSIZE:      0x%08X\n", Xil_In32(XPAR_AXI_VDMA_0_BASEADDR + MM2S_HSIZE));
+      |                             ~~~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                |     |
+      |                                |     u32 {aka long unsigned int}
+      |                                unsigned int
+      |                             %08lX
+../src/main_vdma_read.c:140:32: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  140 |     printf("  VSIZE:      0x%08X\n", Xil_In32(XPAR_AXI_VDMA_0_BASEADDR + MM2S_VSIZE));
+      |                             ~~~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                |     |
+      |                                |     u32 {aka long unsigned int}
+      |                                unsigned int
+      |                             %08lX
+../src/main_vdma_read.c:141:32: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  141 |     printf("  STATUS:     0x%08X\n", Xil_In32(XPAR_AXI_VDMA_0_BASEADDR + MM2S_SR));
+      |                             ~~~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                |     |
+      |                                |     u32 {aka long unsigned int}
+      |                                unsigned int
+      |                             %08lX
+'Finished building: ../src/main_vdma_read.c'
+' '
+'Building target: vdma_ctrl.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "vdma_ctrl.elf"  ./src/main_vdma_read.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: vdma_ctrl.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size vdma_ctrl.elf  |tee "vdma_ctrl.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  54388	   2548	  22640	  79576	  136d8	vdma_ctrl.elf
+'Finished building: vdma_ctrl.elf.size'
+' '
+10:22:48 **** Incremental Build of configuration Debug for project vdma_ctrl_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 57394 E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm standalone_ps7_cortexa9_0 E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/vdma_ctrl_system/Debug/system.bif
+sdcard_gen --xpfm E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm --sys_config design_1_wrapper --bif E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/vdma_ctrl_system/Debug/system.bif --bitstream E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/vdma_ctrl/_ide/bitstream/design_1_wrapper.bit --elf E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/vdma_ctrl/Debug/vdma_ctrl.elf,ps7_cortexa9_0
+creating BOOT.BIN using E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/vdma_ctrl/_ide/bitstream/design_1_wrapper.bit
+Running D:/work/vivado_2020_2/Vitis/2020.2/bin/bootgen  -image E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/vdma_ctrl_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
