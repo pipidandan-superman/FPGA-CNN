@@ -1,10 +1,10 @@
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
--- Date        : Mon Apr  6 10:50:56 2026
+-- Date        : Sun Apr 19 11:41:59 2026
 -- Host        : HC-202510241838 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               e:/FPGA_Project/2020_2/CNN/proj/vmda_test/vmda_test.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_200M_0/design_1_rst_ps7_0_200M_0_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top design_1_rst_ps7_0_200M_0 -prefix
+--               design_1_rst_ps7_0_200M_0_ design_1_rst_ps7_0_200M_0_stub.vhdl
 -- Design      : design_1_rst_ps7_0_200M_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z010clg400-1

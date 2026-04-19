@@ -6,9 +6,6 @@ vlib riviera/xpm
 vlib riviera/axi_lite_ipif_v3_0_4
 vlib riviera/v_tc_v6_2_1
 vlib riviera/xil_defaultlib
-vlib riviera/v_tc_v6_1_13
-vlib riviera/v_vid_in_axi4s_v4_0_9
-vlib riviera/v_axi4s_vid_out_v4_0_11
 vlib riviera/util_vector_logic_v2_0_1
 vlib riviera/lib_cdc_v1_0_2
 vlib riviera/lib_pkg_v1_0_2
@@ -23,19 +20,21 @@ vlib riviera/axi_infrastructure_v1_1_0
 vlib riviera/axi_vip_v1_1_8
 vlib riviera/processing_system7_vip_v1_0_10
 vlib riviera/proc_sys_reset_v5_0_13
+vlib riviera/xlconstant_v1_1_7
+vlib riviera/v_tc_v6_1_13
+vlib riviera/v_vid_in_axi4s_v4_0_9
+vlib riviera/v_axi4s_vid_out_v4_0_11
 vlib riviera/generic_baseblocks_v2_1_0
 vlib riviera/axi_data_fifo_v2_1_21
 vlib riviera/axi_register_slice_v2_1_22
 vlib riviera/axi_protocol_converter_v2_1_22
+vlib riviera/axi_crossbar_v2_1_23
 
 vmap xilinx_vip riviera/xilinx_vip
 vmap xpm riviera/xpm
 vmap axi_lite_ipif_v3_0_4 riviera/axi_lite_ipif_v3_0_4
 vmap v_tc_v6_2_1 riviera/v_tc_v6_2_1
 vmap xil_defaultlib riviera/xil_defaultlib
-vmap v_tc_v6_1_13 riviera/v_tc_v6_1_13
-vmap v_vid_in_axi4s_v4_0_9 riviera/v_vid_in_axi4s_v4_0_9
-vmap v_axi4s_vid_out_v4_0_11 riviera/v_axi4s_vid_out_v4_0_11
 vmap util_vector_logic_v2_0_1 riviera/util_vector_logic_v2_0_1
 vmap lib_cdc_v1_0_2 riviera/lib_cdc_v1_0_2
 vmap lib_pkg_v1_0_2 riviera/lib_pkg_v1_0_2
@@ -50,10 +49,15 @@ vmap axi_infrastructure_v1_1_0 riviera/axi_infrastructure_v1_1_0
 vmap axi_vip_v1_1_8 riviera/axi_vip_v1_1_8
 vmap processing_system7_vip_v1_0_10 riviera/processing_system7_vip_v1_0_10
 vmap proc_sys_reset_v5_0_13 riviera/proc_sys_reset_v5_0_13
+vmap xlconstant_v1_1_7 riviera/xlconstant_v1_1_7
+vmap v_tc_v6_1_13 riviera/v_tc_v6_1_13
+vmap v_vid_in_axi4s_v4_0_9 riviera/v_vid_in_axi4s_v4_0_9
+vmap v_axi4s_vid_out_v4_0_11 riviera/v_axi4s_vid_out_v4_0_11
 vmap generic_baseblocks_v2_1_0 riviera/generic_baseblocks_v2_1_0
 vmap axi_data_fifo_v2_1_21 riviera/axi_data_fifo_v2_1_21
 vmap axi_register_slice_v2_1_22 riviera/axi_register_slice_v2_1_22
 vmap axi_protocol_converter_v2_1_22 riviera/axi_protocol_converter_v2_1_22
+vmap axi_crossbar_v2_1_23 riviera/axi_crossbar_v2_1_23
 
 vlog -work xilinx_vip  -sv2k12 "+incdir+D:/work/vivado_2020_2/Vivado/2020.2/data/xilinx_vip/include" \
 "D:/work/vivado_2020_2/Vivado/2020.2/data/xilinx_vip/hdl/axi4stream_vip_axi4streampc.sv" \
@@ -88,18 +92,6 @@ vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../vmda_test.srcs/sources_1/b
 "../../../bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v" \
 "../../../bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v" \
 "../../../bd/design_1/sim/design_1.v" \
-
-vcom -work v_tc_v6_1_13 -93 \
-"../../../../../VTC_test/VTC_test.srcs/sources_1/bd/design_1/ipshared/b92e/hdl/v_tc_v6_1_vh_rfs.vhd" \
-
-vlog -work v_vid_in_axi4s_v4_0_9  -v2k5 "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/d0f7" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/7860/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+D:/work/vivado_2020_2/Vivado/2020.2/data/xilinx_vip/include" \
-"../../../../../VTC_test/VTC_test.srcs/sources_1/bd/design_1/ipshared/b2aa/hdl/v_vid_in_axi4s_v4_0_vl_rfs.v" \
-
-vlog -work v_axi4s_vid_out_v4_0_11  -v2k5 "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/d0f7" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/7860/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+D:/work/vivado_2020_2/Vivado/2020.2/data/xilinx_vip/include" \
-"../../../../../VTC_test/VTC_test.srcs/sources_1/bd/design_1/ipshared/1a1e/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v" \
-
-vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/d0f7" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/7860/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+D:/work/vivado_2020_2/Vivado/2020.2/data/xilinx_vip/include" \
-"../../../../../VTC_test/VTC_test.srcs/sources_1/bd/design_1/ip/design_1_v_axi4s_vid_out_0_0/sim/design_1_v_axi4s_vid_out_0_0.v" \
 
 vlog -work util_vector_logic_v2_0_1  -v2k5 "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/d0f7" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/7860/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+D:/work/vivado_2020_2/Vivado/2020.2/data/xilinx_vip/include" \
 "../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/3f90/hdl/util_vector_logic_v2_0_vl_rfs.v" \
@@ -167,6 +159,24 @@ vcom -work xil_defaultlib -93 \
 vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/d0f7" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/7860/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+D:/work/vivado_2020_2/Vivado/2020.2/data/xilinx_vip/include" \
 "../../../bd/design_1/ip/design_1_data_gen_0_0/sim/design_1_data_gen_0_0.v" \
 
+vlog -work xlconstant_v1_1_7  -v2k5 "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/d0f7" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/7860/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+D:/work/vivado_2020_2/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v" \
+
+vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/d0f7" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/7860/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+D:/work/vivado_2020_2/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v" \
+
+vcom -work v_tc_v6_1_13 -93 \
+"../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/b92e/hdl/v_tc_v6_1_vh_rfs.vhd" \
+
+vlog -work v_vid_in_axi4s_v4_0_9  -v2k5 "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/d0f7" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/7860/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+D:/work/vivado_2020_2/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/b2aa/hdl/v_vid_in_axi4s_v4_0_vl_rfs.v" \
+
+vlog -work v_axi4s_vid_out_v4_0_11  -v2k5 "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/d0f7" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/7860/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+D:/work/vivado_2020_2/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/1a1e/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v" \
+
+vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/d0f7" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/7860/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+D:/work/vivado_2020_2/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../bd/design_1/ip/design_1_v_axi4s_vid_out_0_0/sim/design_1_v_axi4s_vid_out_0_0.v" \
+
 vlog -work generic_baseblocks_v2_1_0  -v2k5 "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/d0f7" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/7860/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+D:/work/vivado_2020_2/Vivado/2020.2/data/xilinx_vip/include" \
 "../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v" \
 
@@ -181,7 +191,17 @@ vlog -work axi_protocol_converter_v2_1_22  -v2k5 "+incdir+../../../../vmda_test.
 
 vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/d0f7" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/7860/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+D:/work/vivado_2020_2/Vivado/2020.2/data/xilinx_vip/include" \
 "../../../bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
+
+vlog -work axi_crossbar_v2_1_23  -v2k5 "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/d0f7" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/7860/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+D:/work/vivado_2020_2/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/bc0a/hdl/axi_crossbar_v2_1_vl_rfs.v" \
+
+vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/d0f7" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/7860/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+D:/work/vivado_2020_2/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../bd/design_1/ip/design_1_xbar_0/sim/design_1_xbar_0.v" \
 "../../../bd/design_1/ip/design_1_auto_pc_1/sim/design_1_auto_pc_1.v" \
+"../../../bd/design_1/ip/design_1_v_vid_in_axi4s_0_0/sim/design_1_v_vid_in_axi4s_0_0.v" \
+"../../../bd/design_1/ip/design_1_ov5640_cfg_top_0_0/sim/design_1_ov5640_cfg_top_0_0.v" \
+"../../../bd/design_1/ip/design_1_cam_captrue_data_0_0/sim/design_1_cam_captrue_data_0_0.v" \
+"../../../bd/design_1/ip/design_1_util_vector_logic_0_1/sim/design_1_util_vector_logic_0_1.v" \
 
 vlog -work xil_defaultlib \
 "glbl.v"

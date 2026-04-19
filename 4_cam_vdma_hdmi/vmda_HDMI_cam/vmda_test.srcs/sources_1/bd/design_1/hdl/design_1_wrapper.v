@@ -1,7 +1,7 @@
 //Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-//Date        : Tue Apr  7 09:39:54 2026
+//Date        : Sun Apr 19 11:52:49 2026
 //Host        : HC-202510241838 running 64-bit major release  (build 9200)
 //Command     : generate_target design_1_wrapper.bd
 //Design      : design_1_wrapper
@@ -35,8 +35,16 @@ module design_1_wrapper
     TMDS_clk_p_0,
     TMDS_data_n_0,
     TMDS_data_p_0,
+    cam_data_0,
+    cam_href_0,
+    cam_pclk_0,
+    cam_vsync_0,
+    cam_xclk_0,
     clk_in1_0,
-    hdmi_en_0);
+    hdmi_en_0,
+    sccb_clk_0,
+    sccb_data_0,
+    sys_rst_n_0);
   inout [14:0]DDR_addr;
   inout [2:0]DDR_ba;
   inout DDR_cas_n;
@@ -62,8 +70,16 @@ module design_1_wrapper
   output TMDS_clk_p_0;
   output [2:0]TMDS_data_n_0;
   output [2:0]TMDS_data_p_0;
+  input [7:0]cam_data_0;
+  input cam_href_0;
+  input cam_pclk_0;
+  input cam_vsync_0;
+  output cam_xclk_0;
   input clk_in1_0;
   output hdmi_en_0;
+  output sccb_clk_0;
+  inout sccb_data_0;
+  input sys_rst_n_0;
 
   wire [14:0]DDR_addr;
   wire [2:0]DDR_ba;
@@ -90,8 +106,16 @@ module design_1_wrapper
   wire TMDS_clk_p_0;
   wire [2:0]TMDS_data_n_0;
   wire [2:0]TMDS_data_p_0;
+  wire [7:0]cam_data_0;
+  wire cam_href_0;
+  wire cam_pclk_0;
+  wire cam_vsync_0;
+  wire cam_xclk_0;
   wire clk_in1_0;
   wire hdmi_en_0;
+  wire sccb_clk_0;
+  wire sccb_data_0;
+  wire sys_rst_n_0;
 
   design_1 design_1_i
        (.DDR_addr(DDR_addr),
@@ -119,6 +143,14 @@ module design_1_wrapper
         .TMDS_clk_p_0(TMDS_clk_p_0),
         .TMDS_data_n_0(TMDS_data_n_0),
         .TMDS_data_p_0(TMDS_data_p_0),
+        .cam_data_0(cam_data_0),
+        .cam_href_0(cam_href_0),
+        .cam_pclk_0(cam_pclk_0),
+        .cam_vsync_0(cam_vsync_0),
+        .cam_xclk_0(cam_xclk_0),
         .clk_in1_0(clk_in1_0),
-        .hdmi_en_0(hdmi_en_0));
+        .hdmi_en_0(hdmi_en_0),
+        .sccb_clk_0(sccb_clk_0),
+        .sccb_data_0(sccb_data_0),
+        .sys_rst_n_0(sys_rst_n_0));
 endmodule

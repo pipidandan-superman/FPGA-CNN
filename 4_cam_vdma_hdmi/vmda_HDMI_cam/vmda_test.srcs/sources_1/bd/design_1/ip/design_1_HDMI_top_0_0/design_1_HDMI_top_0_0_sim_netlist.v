@@ -1,10 +1,10 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-// Date        : Sun Apr  5 14:57:36 2026
+// Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+// Date        : Sun Apr 19 11:47:13 2026
 // Host        : HC-202510241838 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               e:/FPGA_Project/2020_2/CNN/proj/VTC_test/VTC_test.srcs/sources_1/bd/design_1/ip/design_1_HDMI_top_0_0/design_1_HDMI_top_0_0_sim_netlist.v
+//               e:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vmda_test.srcs/sources_1/bd/design_1/ip/design_1_HDMI_top_0_0/design_1_HDMI_top_0_0_sim_netlist.v
 // Design      : design_1_HDMI_top_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -13,7 +13,7 @@
 `timescale 1 ps / 1 ps
 
 (* CHECK_LICENSE_TYPE = "design_1_HDMI_top_0_0,HDMI_top,{}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* IP_DEFINITION_SOURCE = "module_ref" *) 
-(* X_CORE_INFO = "HDMI_top,Vivado 2020.1" *) 
+(* X_CORE_INFO = "HDMI_top,Vivado 2020.2" *) 
 (* NotValidForBitStream *)
 module design_1_HDMI_top_0_0
    (pix_clk,
@@ -30,7 +30,7 @@ module design_1_HDMI_top_0_0
     TMDS_data_p,
     TMDS_data_n,
     hdmi_en);
-  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 pix_clk CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME pix_clk, FREQ_HZ 75000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN /clk_wiz_0_clk_out1, INSERT_VIP 0" *) input pix_clk;
+  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 pix_clk CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME pix_clk, FREQ_HZ 25000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN /clk_wiz_0_clk_out1, INSERT_VIP 0" *) input pix_clk;
   input pix_clk_x5;
   (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 rst_n RST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME rst_n, POLARITY ACTIVE_LOW, INSERT_VIP 0" *) input rst_n;
   input h_sync;

@@ -50,9 +50,9 @@
 // IP VLNV: xilinx.com:module_ref:HDMI_top:1.0
 // IP Revision: 1
 
-(* X_CORE_INFO = "HDMI_top,Vivado 2020.1" *)
+(* X_CORE_INFO = "HDMI_top,Vivado 2020.2" *)
 (* CHECK_LICENSE_TYPE = "design_1_HDMI_top_0_0,HDMI_top,{}" *)
-(* CORE_GENERATION_INFO = "design_1_HDMI_top_0_0,HDMI_top,{x_ipProduct=Vivado 2020.1,x_ipVendor=xilinx.com,x_ipLibrary=module_ref,x_ipName=HDMI_top,x_ipVersion=1.0,x_ipCoreRevision=1,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}" *)
+(* CORE_GENERATION_INFO = "design_1_HDMI_top_0_0,HDMI_top,{x_ipProduct=Vivado 2020.2,x_ipVendor=xilinx.com,x_ipLibrary=module_ref,x_ipName=HDMI_top,x_ipVersion=1.0,x_ipCoreRevision=1,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}" *)
 (* IP_DEFINITION_SOURCE = "module_ref" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module design_1_HDMI_top_0_0 (
@@ -72,7 +72,7 @@ module design_1_HDMI_top_0_0 (
   hdmi_en
 );
 
-(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME pix_clk, FREQ_HZ 75000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN /clk_wiz_0_clk_out1, INSERT_VIP 0" *)
+(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME pix_clk, FREQ_HZ 25000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN /clk_wiz_0_clk_out1, INSERT_VIP 0" *)
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 pix_clk CLK" *)
 input wire pix_clk;
 input wire pix_clk_x5;

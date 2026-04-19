@@ -34,3 +34,13 @@ domain active {zynq_fsbl}
 bsp reload
 catch {bsp regenerate}
 platform generate -domains standalone_ps7_cortexa9_0,zynq_fsbl 
+platform active {design_1_wrapper}
+platform config -updatehw {E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/design_1_wrapper.xsa}
+platform config -updatehw {E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/design_1_wrapper.xsa}
+domain active {standalone_ps7_cortexa9_0}
+bsp reload
+catch {bsp regenerate}
+domain active {zynq_fsbl}
+bsp reload
+catch {bsp regenerate}
+platform generate -domains standalone_ps7_cortexa9_0,zynq_fsbl 

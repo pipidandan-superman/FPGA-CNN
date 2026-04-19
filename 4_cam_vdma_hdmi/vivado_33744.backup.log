@@ -1,0 +1,150 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Apr 19 11:36:41 2026
+# Process ID: 33744
+# Current directory: E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi
+# Command line: vivado.exe -mode batch -source E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/help/analyze_clock4.tcl
+# Log file: E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vivado.log
+# Journal file: E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi\vivado.jou
+#-----------------------------------------------------------
+source E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/help/analyze_clock4.tcl
+# open_project E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vmda_test.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/work/vivado_2020_2/Vivado/2020.2/data/ip'.
+# open_bd_design {E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vmda_test.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file <E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vmda_test.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:module_ref:HDMI_top:1.0 - HDMI_top_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
+Adding component instance block -- xilinx.com:ip:v_tc:6.2 - v_tc_0
+Adding component instance block -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_0
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_200M
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:module_ref:data_gen:1.0 - data_gen_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:v_vid_in_axi4s:4.0 - v_vid_in_axi4s_0
+Adding component instance block -- xilinx.com:module_ref:ov5640_cfg_top:1.0 - ov5640_cfg_top_0
+Adding component instance block -- xilinx.com:module_ref:cam_captrue_data:1.0 - cam_captrue_data_0
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_1
+Successfully read diagram <design_1> from block design file <E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vmda_test.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 1145.461 ; gain = 0.000
+# puts "\n========================================"
+
+========================================
+# puts "Clock Wizard Output Mapping"
+Clock Wizard Output Mapping
+# puts "========================================"
+========================================
+# set clk_wiz [get_bd_cells clk_wiz_0]
+# puts "\nClock Wizard: $clk_wiz"
+
+Clock Wizard: /clk_wiz_0
+# set out_pins [get_bd_pins -of_objects [get_bd_cells $clk_wiz] -quiet]
+# foreach pin $out_pins {
+#     set pin_name [lindex [split $pin "/"] end]
+#     if {[string match "clk_out*" $pin_name] || [string match "locked" $pin_name]} {
+#         set net [get_bd_nets -of_objects [get_bd_pins $pin] -quiet]
+#         puts "\n  $pin_name -> net: $net"
+#         if {$net != ""} {
+#             set connected_pins [get_bd_pins -of_objects [get_bd_nets $net] -quiet]
+#             foreach cpin $connected_pins {
+#                 set ccell [get_bd_cells -of_objects [get_bd_pins $cpin]]
+#                 set cpin_name [lindex [split $cpin "/"] end]
+#                 if {$ccell != $clk_wiz} {
+#                     puts "    -> [lindex [split $ccell "/"] end] / $cpin_name"
+#                 }
+#             }
+#         }
+#     }
+# }
+
+  locked -> net: /clk_wiz_0_locked
+    -> v_tc_0 / clken
+    -> HDMI_top_0 / rst_n
+    -> util_vector_logic_0 / Op1
+    -> v_tc_0 / resetn
+    -> cam_captrue_data_0 / rst_n
+    -> v_vid_in_axi4s_0 / vid_io_in_reset
+    -> ov5640_cfg_top_0 / sys_rst_n
+# puts "\n========================================"
+
+========================================
+# puts "VDMA Clock Domains"
+VDMA Clock Domains
+# puts "========================================"
+========================================
+# set vdma [get_bd_cells axi_vdma_0]
+# set vdma_pins [get_bd_pins -of_objects [get_bd_cells $vdma] -filter {TYPE == clk} -quiet]
+# foreach pin $vdma_pins {
+#     set net [get_bd_nets -of_objects [get_bd_pins $pin] -quiet]
+#     set pin_name [lindex [split $pin "/"] end]
+#     puts "  $pin_name -> $net"
+# }
+  m_axi_mm2s_aclk -> /processing_system7_0_FCLK_CLK0
+  m_axi_s2mm_aclk -> /processing_system7_0_FCLK_CLK0
+  m_axis_mm2s_aclk -> /processing_system7_0_FCLK_CLK0
+  s_axi_lite_aclk -> /processing_system7_0_FCLK_CLK0
+  s_axis_s2mm_aclk -> /processing_system7_0_FCLK_CLK0
+# puts "\n========================================"
+
+========================================
+# puts "Video Pipeline Clock Domains"
+Video Pipeline Clock Domains
+# puts "========================================"
+========================================
+# set video_ips {v_tc_0 v_axi4s_vid_out_0 v_vid_in_axi4s_0 HDMI_top_0 cam_captrue_data_0}
+# foreach vip $video_ips {
+#     set cell [get_bd_cells $vip -quiet]
+#     if {$cell != ""} {
+#         puts "\n$vip:"
+#         set clk_pins [get_bd_pins -of_objects [get_bd_cells $cell] -quiet]
+#         foreach pin $clk_pins {
+#             set pin_name [lindex [split $pin "/"] end]
+#             if {[string match "*clk*" $pin_name]} {
+#                 set net [get_bd_nets -of_objects [get_bd_pins $pin] -quiet]
+#                 puts "  $pin_name -> $net"
+#             }
+#         }
+#     }
+# }
+
+v_tc_0:
+  clk -> /clk_wiz_0_pclk
+  clken -> /clk_wiz_0_locked
+  gen_clken -> /v_axi4s_vid_out_0_vtg_ce
+
+v_axi4s_vid_out_0:
+  aclk -> /processing_system7_0_FCLK_CLK0
+  aclken -> /Net
+  vid_io_out_clk -> /clk_wiz_0_pclk
+
+v_vid_in_axi4s_0:
+  aclk -> /processing_system7_0_FCLK_CLK0
+  aclken -> 
+  vid_io_in_clk -> /cam_captrue_data_0_vid_clk
+
+HDMI_top_0:
+  TMDS_clk_n -> /HDMI_top_0_TMDS_clk_n
+  TMDS_clk_p -> /HDMI_top_0_TMDS_clk_p
+  pix_clk -> /clk_wiz_0_pclk
+  pix_clk_x5 -> /clk_wiz_0_pclk_x5
+
+cam_captrue_data_0:
+  cam_pclk -> /cam_pclk_0_1
+  cam_xclk -> /cam_captrue_data_0_cam_xclk
+  i_xclk -> /clk_wiz_0_xclk
+  vid_clk -> /cam_captrue_data_0_vid_clk
+# close_bd_design [get_bd_designs design_1]
+# close_project
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 19 11:36:55 2026...

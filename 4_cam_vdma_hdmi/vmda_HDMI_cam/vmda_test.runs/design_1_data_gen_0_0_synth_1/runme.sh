@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vmda_test.runs/design_1_data_gen_0_0_synth_1'
+HD_PWD='E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vmda_test.runs/design_1_data_gen_0_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

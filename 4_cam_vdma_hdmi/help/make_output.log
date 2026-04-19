@@ -1,0 +1,197 @@
+'Building file: ../src/cam_vdma_hdmi.c'
+D:/work/vivado_2020_2/Vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe -Wall -O0 -g3 -c -fmessage-length=0 -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -IE:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/design_1_wrapper_platform/export/design_1_wrapper_platform/sw/design_1_wrapper_platform/standalone_domain/bspinclude/include -o cam_vdma_hdmi.o ../src/cam_vdma_hdmi.c
+../src/cam_vdma_hdmi.c: In function 'VDMA_PrintStatus':
+../src/cam_vdma_hdmi.c:203:32: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  203 |     printf("  VDMACR:     0x%08X\n", Xil_In32(VDMA_BASEADDR + S2MM_VDMACR));
+      |                             ~~~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                |     |
+      |                                |     u32 {aka long unsigned int}
+      |                                unsigned int
+      |                             %08lX
+../src/cam_vdma_hdmi.c:204:32: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  204 |     printf("  VDMASR:     0x%08X\n", Xil_In32(VDMA_BASEADDR + S2MM_VDMASR));
+      |                             ~~~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                |     |
+      |                                |     u32 {aka long unsigned int}
+      |                                unsigned int
+      |                             %08lX
+../src/cam_vdma_hdmi.c:205:32: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  205 |     printf("  START_ADDR: 0x%08X\n", Xil_In32(VDMA_BASEADDR + S2MM_START_ADDR_1));
+      |                             ~~~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                |     |
+      |                                |     u32 {aka long unsigned int}
+      |                                unsigned int
+      |                             %08lX
+../src/cam_vdma_hdmi.c:206:32: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  206 |     printf("  STRIDE:     0x%08X (%d bytes)\n",
+      |                             ~~~^
+      |                                |
+      |                                unsigned int
+      |                             %08lX
+  207 |            Xil_In32(VDMA_BASEADDR + S2MM_FRMDLY_STRIDE),
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |            |
+      |            u32 {aka long unsigned int}
+../src/cam_vdma_hdmi.c:206:36: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  206 |     printf("  STRIDE:     0x%08X (%d bytes)\n",
+      |                                   ~^
+      |                                    |
+      |                                    int
+      |                                   %ld
+  207 |            Xil_In32(VDMA_BASEADDR + S2MM_FRMDLY_STRIDE),
+  208 |            Xil_In32(VDMA_BASEADDR + S2MM_FRMDLY_STRIDE));
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |            |
+      |            u32 {aka long unsigned int}
+../src/cam_vdma_hdmi.c:209:32: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  209 |     printf("  HSIZE:      0x%08X (%d bytes)\n",
+      |                             ~~~^
+      |                                |
+      |                                unsigned int
+      |                             %08lX
+  210 |            Xil_In32(VDMA_BASEADDR + S2MM_HSIZE),
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |            |
+      |            u32 {aka long unsigned int}
+../src/cam_vdma_hdmi.c:209:36: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  209 |     printf("  HSIZE:      0x%08X (%d bytes)\n",
+      |                                   ~^
+      |                                    |
+      |                                    int
+      |                                   %ld
+  210 |            Xil_In32(VDMA_BASEADDR + S2MM_HSIZE),
+  211 |            Xil_In32(VDMA_BASEADDR + S2MM_HSIZE));
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |            |
+      |            u32 {aka long unsigned int}
+../src/cam_vdma_hdmi.c:212:32: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  212 |     printf("  VSIZE:      0x%08X (%d lines)\n",
+      |                             ~~~^
+      |                                |
+      |                                unsigned int
+      |                             %08lX
+  213 |            Xil_In32(VDMA_BASEADDR + S2MM_VSIZE),
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |            |
+      |            u32 {aka long unsigned int}
+../src/cam_vdma_hdmi.c:212:36: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  212 |     printf("  VSIZE:      0x%08X (%d lines)\n",
+      |                                   ~^
+      |                                    |
+      |                                    int
+      |                                   %ld
+  213 |            Xil_In32(VDMA_BASEADDR + S2MM_VSIZE),
+  214 |            Xil_In32(VDMA_BASEADDR + S2MM_VSIZE));
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |            |
+      |            u32 {aka long unsigned int}
+../src/cam_vdma_hdmi.c:217:32: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  217 |     printf("  VDMACR:     0x%08X\n", Xil_In32(VDMA_BASEADDR + MM2S_VDMACR));
+      |                             ~~~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                |     |
+      |                                |     u32 {aka long unsigned int}
+      |                                unsigned int
+      |                             %08lX
+../src/cam_vdma_hdmi.c:218:32: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  218 |     printf("  VDMASR:     0x%08X\n", Xil_In32(VDMA_BASEADDR + MM2S_VDMASR));
+      |                             ~~~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                |     |
+      |                                |     u32 {aka long unsigned int}
+      |                                unsigned int
+      |                             %08lX
+../src/cam_vdma_hdmi.c:219:32: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  219 |     printf("  START_ADDR: 0x%08X\n", Xil_In32(VDMA_BASEADDR + MM2S_START_ADDR_1));
+      |                             ~~~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                |     |
+      |                                |     u32 {aka long unsigned int}
+      |                                unsigned int
+      |                             %08lX
+../src/cam_vdma_hdmi.c:220:32: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  220 |     printf("  STRIDE:     0x%08X (%d bytes)\n",
+      |                             ~~~^
+      |                                |
+      |                                unsigned int
+      |                             %08lX
+  221 |            Xil_In32(VDMA_BASEADDR + MM2S_FRMDLY_STRIDE),
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |            |
+      |            u32 {aka long unsigned int}
+../src/cam_vdma_hdmi.c:220:36: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  220 |     printf("  STRIDE:     0x%08X (%d bytes)\n",
+      |                                   ~^
+      |                                    |
+      |                                    int
+      |                                   %ld
+  221 |            Xil_In32(VDMA_BASEADDR + MM2S_FRMDLY_STRIDE),
+  222 |            Xil_In32(VDMA_BASEADDR + MM2S_FRMDLY_STRIDE));
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |            |
+      |            u32 {aka long unsigned int}
+../src/cam_vdma_hdmi.c:223:32: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  223 |     printf("  HSIZE:      0x%08X (%d bytes)\n",
+      |                             ~~~^
+      |                                |
+      |                                unsigned int
+      |                             %08lX
+  224 |            Xil_In32(VDMA_BASEADDR + MM2S_HSIZE),
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |            |
+      |            u32 {aka long unsigned int}
+../src/cam_vdma_hdmi.c:223:36: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  223 |     printf("  HSIZE:      0x%08X (%d bytes)\n",
+      |                                   ~^
+      |                                    |
+      |                                    int
+      |                                   %ld
+  224 |            Xil_In32(VDMA_BASEADDR + MM2S_HSIZE),
+  225 |            Xil_In32(VDMA_BASEADDR + MM2S_HSIZE));
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |            |
+      |            u32 {aka long unsigned int}
+../src/cam_vdma_hdmi.c:226:32: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  226 |     printf("  VSIZE:      0x%08X (%d lines)\n",
+      |                             ~~~^
+      |                                |
+      |                                unsigned int
+      |                             %08lX
+  227 |            Xil_In32(VDMA_BASEADDR + MM2S_VSIZE),
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |            |
+      |            u32 {aka long unsigned int}
+../src/cam_vdma_hdmi.c:226:36: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  226 |     printf("  VSIZE:      0x%08X (%d lines)\n",
+      |                                   ~^
+      |                                    |
+      |                                    int
+      |                                   %ld
+  227 |            Xil_In32(VDMA_BASEADDR + MM2S_VSIZE),
+  228 |            Xil_In32(VDMA_BASEADDR + MM2S_VSIZE));
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |            |
+      |            u32 {aka long unsigned int}
+'Building file: ../src/platform.c'
+D:/work/vivado_2020_2/Vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe -Wall -O0 -g3 -c -fmessage-length=0 -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -IE:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/design_1_wrapper_platform/export/design_1_wrapper_platform/sw/design_1_wrapper_platform/standalone_domain/bspinclude/include -o platform.o ../src/platform.c
+'Building target: cam_vdma_hdmi.elf'
+'Invoking: ARM v7 gcc linker'
+D:/work/vivado_2020_2/Vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,--build-id=none -T ../src/lscript.ld -o cam_vdma_hdmi.elf ./cam_vdma_hdmi.o ./platform.o -LE:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/design_1_wrapper_platform/export/design_1_wrapper_platform/sw/design_1_wrapper_platform/standalone_domain/bsplib/lib -lxil -lgcc
+d:/work/vivado_2020_2/vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/bin/arm-xilinx-eabi/../../libexec/arm-xilinx-eabi/gcc/arm-xilinx-eabi/9.2.0/real-ld.exe: D:/work/vivado_2020_2/Vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin//../aarch32-xilinx-eabi/usr/lib/thumb/v7-a+fp/hard/crt0.o: in function `_start':
+/usr/src/debug/libv7afpthf-libgloss/3.1.0-r0/newlib-3.1.0/libgloss/arm/crt0.S:430: undefined reference to `__bss_start__'
+d:/work/vivado_2020_2/vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/bin/arm-xilinx-eabi/../../libexec/arm-xilinx-eabi/gcc/arm-xilinx-eabi/9.2.0/real-ld.exe: /usr/src/debug/libv7afpthf-libgloss/3.1.0-r0/newlib-3.1.0/libgloss/arm/crt0.S:430: undefined reference to `__bss_end__'
+d:/work/vivado_2020_2/vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/bin/arm-xilinx-eabi/../../libexec/arm-xilinx-eabi/gcc/arm-xilinx-eabi/9.2.0/real-ld.exe: D:/work/vivado_2020_2/Vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin//../aarch32-xilinx-eabi/usr/lib/thumb/v7-a+fp/hard\libc.a(lib_a-exit.o): in function `exit':
+(.text+0x1c): undefined reference to `_exit'
+d:/work/vivado_2020_2/vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/bin/arm-xilinx-eabi/../../libexec/arm-xilinx-eabi/gcc/arm-xilinx-eabi/9.2.0/real-ld.exe: D:/work/vivado_2020_2/Vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin//../aarch32-xilinx-eabi/usr/lib/thumb/v7-a+fp/hard\libc.a(lib_a-sbrkr.o): in function `_sbrk_r':
+(.text+0x12): undefined reference to `_sbrk'
+d:/work/vivado_2020_2/vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/bin/arm-xilinx-eabi/../../libexec/arm-xilinx-eabi/gcc/arm-xilinx-eabi/9.2.0/real-ld.exe: D:/work/vivado_2020_2/Vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin//../aarch32-xilinx-eabi/usr/lib/thumb/v7-a+fp/hard\libc.a(lib_a-writer.o): in function `_write_r':
+(.text+0x1a): undefined reference to `_write'
+d:/work/vivado_2020_2/vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/bin/arm-xilinx-eabi/../../libexec/arm-xilinx-eabi/gcc/arm-xilinx-eabi/9.2.0/real-ld.exe: D:/work/vivado_2020_2/Vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin//../aarch32-xilinx-eabi/usr/lib/thumb/v7-a+fp/hard\libc.a(lib_a-closer.o): in function `_close_r':
+(.text+0x12): undefined reference to `_close'
+d:/work/vivado_2020_2/vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/bin/arm-xilinx-eabi/../../libexec/arm-xilinx-eabi/gcc/arm-xilinx-eabi/9.2.0/real-ld.exe: D:/work/vivado_2020_2/Vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin//../aarch32-xilinx-eabi/usr/lib/thumb/v7-a+fp/hard\libc.a(lib_a-fstatr.o): in function `_fstat_r':
+(.text+0x18): undefined reference to `_fstat'
+d:/work/vivado_2020_2/vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/bin/arm-xilinx-eabi/../../libexec/arm-xilinx-eabi/gcc/arm-xilinx-eabi/9.2.0/real-ld.exe: D:/work/vivado_2020_2/Vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin//../aarch32-xilinx-eabi/usr/lib/thumb/v7-a+fp/hard\libc.a(lib_a-isattyr.o): in function `_isatty_r':
+(.text+0x12): undefined reference to `_isatty'
+d:/work/vivado_2020_2/vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/bin/arm-xilinx-eabi/../../libexec/arm-xilinx-eabi/gcc/arm-xilinx-eabi/9.2.0/real-ld.exe: D:/work/vivado_2020_2/Vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin//../aarch32-xilinx-eabi/usr/lib/thumb/v7-a+fp/hard\libc.a(lib_a-lseekr.o): in function `_lseek_r':
+(.text+0x1a): undefined reference to `_lseek'
+d:/work/vivado_2020_2/vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/bin/arm-xilinx-eabi/../../libexec/arm-xilinx-eabi/gcc/arm-xilinx-eabi/9.2.0/real-ld.exe: D:/work/vivado_2020_2/Vitis/2020.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin//../aarch32-xilinx-eabi/usr/lib/thumb/v7-a+fp/hard\libc.a(lib_a-readr.o): in function `_read_r':
+(.text+0x1a): undefined reference to `_read'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:46: cam_vdma_hdmi.elf] Error 1

@@ -11,9 +11,9 @@ echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executi
 exit
 
 if [ -z "$PATH" ]; then
-  PATH=D:/work/vivado2020/Vitis/2020.1/bin;D:/work/vivado2020/Vivado/2020.1/ids_lite/ISE/bin/nt64;D:/work/vivado2020/Vivado/2020.1/ids_lite/ISE/lib/nt64:D:/work/vivado2020/Vivado/2020.1/bin
+  PATH=D:/work/vivado_2020_2/Vitis/2020.2/bin;D:/work/vivado_2020_2/Vivado/2020.2/ids_lite/ISE/bin/nt64;D:/work/vivado_2020_2/Vivado/2020.2/ids_lite/ISE/lib/nt64:D:/work/vivado_2020_2/Vivado/2020.2/bin
 else
-  PATH=D:/work/vivado2020/Vitis/2020.1/bin;D:/work/vivado2020/Vivado/2020.1/ids_lite/ISE/bin/nt64;D:/work/vivado2020/Vivado/2020.1/ids_lite/ISE/lib/nt64:D:/work/vivado2020/Vivado/2020.1/bin:$PATH
+  PATH=D:/work/vivado_2020_2/Vitis/2020.2/bin;D:/work/vivado_2020_2/Vivado/2020.2/ids_lite/ISE/bin/nt64;D:/work/vivado_2020_2/Vivado/2020.2/ids_lite/ISE/lib/nt64:D:/work/vivado_2020_2/Vivado/2020.2/bin:$PATH
 fi
 export PATH
 
@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='E:/FPGA_Project/2020_2/CNN/proj/VTC_test/VTC_test.runs/design_1_HDMI_top_0_0_synth_1'
+HD_PWD='E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vmda_test.runs/design_1_HDMI_top_0_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

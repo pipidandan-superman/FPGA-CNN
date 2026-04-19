@@ -32,18 +32,6 @@
   "../../../bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v" \
   "../../../bd/design_1/sim/design_1.v" \
 -endlib
--makelib xcelium_lib/v_tc_v6_1_13 \
-  "../../../../../VTC_test/VTC_test.srcs/sources_1/bd/design_1/ipshared/b92e/hdl/v_tc_v6_1_vh_rfs.vhd" \
--endlib
--makelib xcelium_lib/v_vid_in_axi4s_v4_0_9 \
-  "../../../../../VTC_test/VTC_test.srcs/sources_1/bd/design_1/ipshared/b2aa/hdl/v_vid_in_axi4s_v4_0_vl_rfs.v" \
--endlib
--makelib xcelium_lib/v_axi4s_vid_out_v4_0_11 \
-  "../../../../../VTC_test/VTC_test.srcs/sources_1/bd/design_1/ipshared/1a1e/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v" \
--endlib
--makelib xcelium_lib/xil_defaultlib \
-  "../../../../../VTC_test/VTC_test.srcs/sources_1/bd/design_1/ip/design_1_v_axi4s_vid_out_0_0/sim/design_1_v_axi4s_vid_out_0_0.v" \
--endlib
 -makelib xcelium_lib/util_vector_logic_v2_0_1 \
   "../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/3f90/hdl/util_vector_logic_v2_0_vl_rfs.v" \
 -endlib
@@ -110,6 +98,24 @@
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/design_1/ip/design_1_data_gen_0_0/sim/design_1_data_gen_0_0.v" \
 -endlib
+-makelib xcelium_lib/xlconstant_v1_1_7 \
+  "../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib \
+  "../../../bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v" \
+-endlib
+-makelib xcelium_lib/v_tc_v6_1_13 \
+  "../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/b92e/hdl/v_tc_v6_1_vh_rfs.vhd" \
+-endlib
+-makelib xcelium_lib/v_vid_in_axi4s_v4_0_9 \
+  "../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/b2aa/hdl/v_vid_in_axi4s_v4_0_vl_rfs.v" \
+-endlib
+-makelib xcelium_lib/v_axi4s_vid_out_v4_0_11 \
+  "../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/1a1e/hdl/v_axi4s_vid_out_v4_0_vl_rfs.v" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib \
+  "../../../bd/design_1/ip/design_1_v_axi4s_vid_out_0_0/sim/design_1_v_axi4s_vid_out_0_0.v" \
+-endlib
 -makelib xcelium_lib/generic_baseblocks_v2_1_0 \
   "../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v" \
 -endlib
@@ -124,7 +130,17 @@
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
+-endlib
+-makelib xcelium_lib/axi_crossbar_v2_1_23 \
+  "../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/bc0a/hdl/axi_crossbar_v2_1_vl_rfs.v" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib \
+  "../../../bd/design_1/ip/design_1_xbar_0/sim/design_1_xbar_0.v" \
   "../../../bd/design_1/ip/design_1_auto_pc_1/sim/design_1_auto_pc_1.v" \
+  "../../../bd/design_1/ip/design_1_v_vid_in_axi4s_0_0/sim/design_1_v_vid_in_axi4s_0_0.v" \
+  "../../../bd/design_1/ip/design_1_ov5640_cfg_top_0_0/sim/design_1_ov5640_cfg_top_0_0.v" \
+  "../../../bd/design_1/ip/design_1_cam_captrue_data_0_0/sim/design_1_cam_captrue_data_0_0.v" \
+  "../../../bd/design_1/ip/design_1_util_vector_logic_0_1/sim/design_1_util_vector_logic_0_1.v" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   glbl.v
