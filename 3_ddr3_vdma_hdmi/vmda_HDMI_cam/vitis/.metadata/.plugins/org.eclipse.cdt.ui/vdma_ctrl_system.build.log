@@ -1,0 +1,10 @@
+09:24:34 **** Build of configuration Debug for project vdma_ctrl_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 55521 E:/FPGA_Project/2020_2/CNN/proj/3_ddr3_vdma_hdmi/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm standalone_ps7_cortexa9_0 E:/FPGA_Project/2020_2/CNN/proj/3_ddr3_vdma_hdmi/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+sdcard_gen --xpfm E:/FPGA_Project/2020_2/CNN/proj/3_ddr3_vdma_hdmi/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm --sys_config design_1_wrapper --bif E:/FPGA_Project/2020_2/CNN/proj/3_ddr3_vdma_hdmi/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif --bitstream E:/FPGA_Project/2020_2/CNN/proj/3_ddr3_vdma_hdmi/vmda_HDMI_cam/vitis/vdma_ctrl/_ide/bitstream/design_1_wrapper.bit --elf E:/FPGA_Project/2020_2/CNN/proj/3_ddr3_vdma_hdmi/vmda_HDMI_cam/vitis/vdma_ctrl/Debug/vdma_ctrl.elf,ps7_cortexa9_0
+creating BOOT.BIN using E:/FPGA_Project/2020_2/CNN/proj/3_ddr3_vdma_hdmi/vmda_HDMI_cam/vitis/vdma_ctrl/_ide/bitstream/design_1_wrapper.bit
+Running D:/work/vivado_2020_2/Vitis/2020.2/bin/bootgen  -image E:/FPGA_Project/2020_2/CNN/proj/3_ddr3_vdma_hdmi/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+09:24:37 Build Finished (took 2s.679ms)
+
