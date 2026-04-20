@@ -1,7 +1,7 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-// Date        : Sun Apr 19 11:47:15 2026
+// Date        : Sun Apr 19 18:27:28 2026
 // Host        : HC-202510241838 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim -rename_top decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix -prefix
 //               decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_ design_1_cam_captrue_data_0_0_sim_netlist.v
@@ -12,27 +12,34 @@
 // --------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
+(* WAIT_FRAME = "10" *) (* keep_hierarchy = "soft" *) 
 module decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_cam_captrue_data
-   (vid_ce,
-    vid_data,
-    vid_active_video,
-    vid_vsync,
-    cam_href,
-    cam_data,
+   (i_xclk,
+    rst_n,
     cam_pclk,
+    cam_href,
     cam_vsync,
-    rst_n);
-  output vid_ce;
-  output [15:0]vid_data;
-  output vid_active_video;
-  output vid_vsync;
-  input cam_href;
-  input [7:0]cam_data;
-  input cam_pclk;
-  input cam_vsync;
+    cam_data,
+    cam_xclk,
+    vid_clk,
+    vid_ce,
+    vid_vsync,
+    vid_active_video,
+    vid_data);
+  input i_xclk;
   input rst_n;
+  input cam_pclk;
+  (* mark_debug = "true" *) input cam_href;
+  (* mark_debug = "true" *) input cam_vsync;
+  (* mark_debug = "true" *) input [7:0]cam_data;
+  (* mark_debug = "true" *) output cam_xclk;
+  output vid_clk;
+  (* mark_debug = "true" *) output vid_ce;
+  (* mark_debug = "true" *) output vid_vsync;
+  (* mark_debug = "true" *) output vid_active_video;
+  (* mark_debug = "true" *) output [23:0]vid_data;
 
-  wire [7:0]cam_data;
+  (* MARK_DEBUG *) wire [7:0]cam_data;
   wire [7:0]cam_data_d0;
   wire \cam_data_d0[0]_i_1_n_0 ;
   wire \cam_data_d0[1]_i_1_n_0 ;
@@ -42,14 +49,15 @@ module decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_cam_captrue_data
   wire \cam_data_d0[5]_i_1_n_0 ;
   wire \cam_data_d0[6]_i_1_n_0 ;
   wire \cam_data_d0[7]_i_1_n_0 ;
-  wire cam_href;
+  (* MARK_DEBUG *) wire cam_href;
   wire cam_href_d0;
   wire cam_href_d0_i_1_n_0;
   wire cam_href_d1;
   wire cam_pclk;
-  wire cam_vsync;
+  (* MARK_DEBUG *) wire cam_vsync;
   wire cam_vsync_d0;
   wire cam_vsync_d1;
+  (* MARK_DEBUG *) wire cam_xclk;
   wire data_flag;
   wire data_flag_d0;
   wire data_flag_reg_n_0;
@@ -59,77 +67,78 @@ module decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_cam_captrue_data
   wire \frame_cnt[2]_i_1_n_0 ;
   wire \frame_cnt[3]_i_2_n_0 ;
   wire pos_vsync;
-  wire [15:0]rgb565_data;
-  wire rgb565_data_0;
+  wire rgb565_data;
+  wire \rgb565_data_reg_n_0_[0] ;
+  wire \rgb565_data_reg_n_0_[10] ;
+  wire \rgb565_data_reg_n_0_[11] ;
+  wire \rgb565_data_reg_n_0_[12] ;
+  wire \rgb565_data_reg_n_0_[13] ;
+  wire \rgb565_data_reg_n_0_[14] ;
+  wire \rgb565_data_reg_n_0_[15] ;
+  wire \rgb565_data_reg_n_0_[1] ;
+  wire \rgb565_data_reg_n_0_[2] ;
+  wire \rgb565_data_reg_n_0_[3] ;
+  wire \rgb565_data_reg_n_0_[4] ;
+  wire \rgb565_data_reg_n_0_[5] ;
+  wire \rgb565_data_reg_n_0_[6] ;
+  wire \rgb565_data_reg_n_0_[7] ;
+  wire \rgb565_data_reg_n_0_[8] ;
+  wire \rgb565_data_reg_n_0_[9] ;
   wire rst_n;
   wire rst_n_d0;
   wire rst_n_d0_i_1_n_0;
   wire rst_n_sync;
-  wire vid_active_video;
-  wire vid_ce;
-  wire [15:0]vid_data;
-  wire vid_vsync;
+  (* MARK_DEBUG *) wire vid_active_video;
+  (* MARK_DEBUG *) wire vid_ce;
+  (* MARK_DEBUG *) wire [23:0]vid_data;
+  (* MARK_DEBUG *) wire vid_vsync;
   wire wait_done;
   wire wait_done_i_1_n_0;
 
-  (* SOFT_HLUTNM = "soft_lutpair2" *) 
-  LUT3 #(
-    .INIT(8'hA2)) 
-    \/i_ 
-       (.I0(wait_done),
-        .I1(cam_href_d1),
-        .I2(data_flag_d0),
-        .O(vid_ce));
-  (* SOFT_HLUTNM = "soft_lutpair3" *) 
+  assign cam_xclk = i_xclk;
+  assign vid_clk = cam_pclk;
   LUT2 #(
     .INIT(4'h8)) 
     \cam_data_d0[0]_i_1 
        (.I0(cam_href),
         .I1(cam_data[0]),
         .O(\cam_data_d0[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair3" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \cam_data_d0[1]_i_1 
        (.I0(cam_href),
         .I1(cam_data[1]),
         .O(\cam_data_d0[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair4" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \cam_data_d0[2]_i_1 
        (.I0(cam_href),
         .I1(cam_data[2]),
         .O(\cam_data_d0[2]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair4" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \cam_data_d0[3]_i_1 
        (.I0(cam_href),
         .I1(cam_data[3]),
         .O(\cam_data_d0[3]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair5" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \cam_data_d0[4]_i_1 
        (.I0(cam_href),
         .I1(cam_data[4]),
         .O(\cam_data_d0[4]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair5" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \cam_data_d0[5]_i_1 
        (.I0(cam_href),
         .I1(cam_data[5]),
         .O(\cam_data_d0[5]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair6" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \cam_data_d0[6]_i_1 
        (.I0(cam_href),
         .I1(cam_data[6]),
         .O(\cam_data_d0[6]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair6" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \cam_data_d0[7]_i_1 
@@ -231,7 +240,7 @@ module decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_cam_captrue_data
         .CLR(cam_href_d0_i_1_n_0),
         .D(data_flag),
         .Q(data_flag_reg_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair0" *) 
+  (* SOFT_HLUTNM = "soft_lutpair1" *) 
   LUT4 #(
     .INIT(16'h02FF)) 
     \frame_cnt[0]_i_1 
@@ -240,7 +249,7 @@ module decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_cam_captrue_data
         .I2(frame_cnt[1]),
         .I3(frame_cnt[0]),
         .O(\frame_cnt[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+  (* SOFT_HLUTNM = "soft_lutpair0" *) 
   LUT4 #(
     .INIT(16'h2C3C)) 
     \frame_cnt[1]_i_1 
@@ -296,108 +305,148 @@ module decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_cam_captrue_data
         .CLR(cam_href_d0_i_1_n_0),
         .D(\frame_cnt[3]_i_2_n_0 ),
         .Q(frame_cnt[3]));
+  LUT1 #(
+    .INIT(2'h2)) 
+    i_0
+       (.I0(1'b0),
+        .O(vid_data[18]));
+  LUT1 #(
+    .INIT(2'h2)) 
+    i_1
+       (.I0(1'b0),
+        .O(vid_data[17]));
+  LUT1 #(
+    .INIT(2'h2)) 
+    i_2
+       (.I0(1'b0),
+        .O(vid_data[16]));
+  LUT1 #(
+    .INIT(2'h2)) 
+    i_3
+       (.I0(1'b0),
+        .O(vid_data[9]));
+  LUT1 #(
+    .INIT(2'h2)) 
+    i_4
+       (.I0(1'b0),
+        .O(vid_data[8]));
+  LUT1 #(
+    .INIT(2'h2)) 
+    i_5
+       (.I0(1'b0),
+        .O(vid_data[2]));
+  LUT1 #(
+    .INIT(2'h2)) 
+    i_6
+       (.I0(1'b0),
+        .O(vid_data[1]));
+  LUT1 #(
+    .INIT(2'h2)) 
+    i_7
+       (.I0(1'b0),
+        .O(vid_data[0]));
   LUT2 #(
     .INIT(4'h8)) 
     \rgb565_data[15]_i_1 
        (.I0(cam_href),
         .I1(data_flag_reg_n_0),
-        .O(rgb565_data_0));
+        .O(rgb565_data));
   FDCE \rgb565_data_reg[0] 
        (.C(cam_pclk),
-        .CE(rgb565_data_0),
+        .CE(rgb565_data),
         .CLR(cam_href_d0_i_1_n_0),
         .D(cam_data[0]),
-        .Q(rgb565_data[0]));
+        .Q(\rgb565_data_reg_n_0_[0] ));
   FDCE \rgb565_data_reg[10] 
        (.C(cam_pclk),
-        .CE(rgb565_data_0),
+        .CE(rgb565_data),
         .CLR(cam_href_d0_i_1_n_0),
         .D(cam_data_d0[2]),
-        .Q(rgb565_data[10]));
+        .Q(\rgb565_data_reg_n_0_[10] ));
   FDCE \rgb565_data_reg[11] 
        (.C(cam_pclk),
-        .CE(rgb565_data_0),
+        .CE(rgb565_data),
         .CLR(cam_href_d0_i_1_n_0),
         .D(cam_data_d0[3]),
-        .Q(rgb565_data[11]));
+        .Q(\rgb565_data_reg_n_0_[11] ));
   FDCE \rgb565_data_reg[12] 
        (.C(cam_pclk),
-        .CE(rgb565_data_0),
+        .CE(rgb565_data),
         .CLR(cam_href_d0_i_1_n_0),
         .D(cam_data_d0[4]),
-        .Q(rgb565_data[12]));
+        .Q(\rgb565_data_reg_n_0_[12] ));
   FDCE \rgb565_data_reg[13] 
        (.C(cam_pclk),
-        .CE(rgb565_data_0),
+        .CE(rgb565_data),
         .CLR(cam_href_d0_i_1_n_0),
         .D(cam_data_d0[5]),
-        .Q(rgb565_data[13]));
+        .Q(\rgb565_data_reg_n_0_[13] ));
   FDCE \rgb565_data_reg[14] 
        (.C(cam_pclk),
-        .CE(rgb565_data_0),
+        .CE(rgb565_data),
         .CLR(cam_href_d0_i_1_n_0),
         .D(cam_data_d0[6]),
-        .Q(rgb565_data[14]));
+        .Q(\rgb565_data_reg_n_0_[14] ));
   FDCE \rgb565_data_reg[15] 
        (.C(cam_pclk),
-        .CE(rgb565_data_0),
+        .CE(rgb565_data),
         .CLR(cam_href_d0_i_1_n_0),
         .D(cam_data_d0[7]),
-        .Q(rgb565_data[15]));
+        .Q(\rgb565_data_reg_n_0_[15] ));
   FDCE \rgb565_data_reg[1] 
        (.C(cam_pclk),
-        .CE(rgb565_data_0),
+        .CE(rgb565_data),
         .CLR(cam_href_d0_i_1_n_0),
         .D(cam_data[1]),
-        .Q(rgb565_data[1]));
+        .Q(\rgb565_data_reg_n_0_[1] ));
   FDCE \rgb565_data_reg[2] 
        (.C(cam_pclk),
-        .CE(rgb565_data_0),
+        .CE(rgb565_data),
         .CLR(cam_href_d0_i_1_n_0),
         .D(cam_data[2]),
-        .Q(rgb565_data[2]));
+        .Q(\rgb565_data_reg_n_0_[2] ));
   FDCE \rgb565_data_reg[3] 
        (.C(cam_pclk),
-        .CE(rgb565_data_0),
+        .CE(rgb565_data),
         .CLR(cam_href_d0_i_1_n_0),
         .D(cam_data[3]),
-        .Q(rgb565_data[3]));
+        .Q(\rgb565_data_reg_n_0_[3] ));
   FDCE \rgb565_data_reg[4] 
        (.C(cam_pclk),
-        .CE(rgb565_data_0),
+        .CE(rgb565_data),
         .CLR(cam_href_d0_i_1_n_0),
         .D(cam_data[4]),
-        .Q(rgb565_data[4]));
+        .Q(\rgb565_data_reg_n_0_[4] ));
   FDCE \rgb565_data_reg[5] 
        (.C(cam_pclk),
-        .CE(rgb565_data_0),
+        .CE(rgb565_data),
         .CLR(cam_href_d0_i_1_n_0),
         .D(cam_data[5]),
-        .Q(rgb565_data[5]));
+        .Q(\rgb565_data_reg_n_0_[5] ));
   FDCE \rgb565_data_reg[6] 
        (.C(cam_pclk),
-        .CE(rgb565_data_0),
+        .CE(rgb565_data),
         .CLR(cam_href_d0_i_1_n_0),
         .D(cam_data[6]),
-        .Q(rgb565_data[6]));
+        .Q(\rgb565_data_reg_n_0_[6] ));
   FDCE \rgb565_data_reg[7] 
        (.C(cam_pclk),
-        .CE(rgb565_data_0),
+        .CE(rgb565_data),
         .CLR(cam_href_d0_i_1_n_0),
         .D(cam_data[7]),
-        .Q(rgb565_data[7]));
+        .Q(\rgb565_data_reg_n_0_[7] ));
   FDCE \rgb565_data_reg[8] 
        (.C(cam_pclk),
-        .CE(rgb565_data_0),
+        .CE(rgb565_data),
         .CLR(cam_href_d0_i_1_n_0),
         .D(cam_data_d0[0]),
-        .Q(rgb565_data[8]));
+        .Q(\rgb565_data_reg_n_0_[8] ));
   FDCE \rgb565_data_reg[9] 
        (.C(cam_pclk),
-        .CE(rgb565_data_0),
+        .CE(rgb565_data),
         .CLR(cam_href_d0_i_1_n_0),
         .D(cam_data_d0[1]),
-        .Q(rgb565_data[9]));
+        .Q(\rgb565_data_reg_n_0_[9] ));
   LUT1 #(
     .INIT(2'h1)) 
     rst_n_d0_i_1
@@ -415,128 +464,118 @@ module decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_cam_captrue_data
         .CLR(rst_n_d0_i_1_n_0),
         .D(rst_n_d0),
         .Q(rst_n_sync));
-  (* SOFT_HLUTNM = "soft_lutpair2" *) 
   LUT2 #(
     .INIT(4'h8)) 
-    vid_active_video_INST_0
+    vid_active_video_inferred_i_1
        (.I0(wait_done),
         .I1(cam_href_d1),
         .O(vid_active_video));
-  (* SOFT_HLUTNM = "soft_lutpair9" *) 
+  LUT3 #(
+    .INIT(8'hA2)) 
+    vid_ce_inferred_i_1
+       (.I0(wait_done),
+        .I1(vid_active_video),
+        .I2(data_flag_d0),
+        .O(vid_ce));
   LUT2 #(
     .INIT(4'h8)) 
-    \vid_data[10]_INST_0 
+    vid_data_inferred_i_1
        (.I0(wait_done),
-        .I1(rgb565_data[5]),
-        .O(vid_data[5]));
-  (* SOFT_HLUTNM = "soft_lutpair10" *) 
+        .I1(\rgb565_data_reg_n_0_[15] ),
+        .O(vid_data[23]));
   LUT2 #(
     .INIT(4'h8)) 
-    \vid_data[11]_INST_0 
+    vid_data_inferred_i_10
        (.I0(wait_done),
-        .I1(rgb565_data[6]),
-        .O(vid_data[6]));
-  (* SOFT_HLUTNM = "soft_lutpair10" *) 
-  LUT2 #(
-    .INIT(4'h8)) 
-    \vid_data[12]_INST_0 
-       (.I0(wait_done),
-        .I1(rgb565_data[7]),
-        .O(vid_data[7]));
-  (* SOFT_HLUTNM = "soft_lutpair11" *) 
-  LUT2 #(
-    .INIT(4'h8)) 
-    \vid_data[13]_INST_0 
-       (.I0(wait_done),
-        .I1(rgb565_data[8]),
-        .O(vid_data[8]));
-  (* SOFT_HLUTNM = "soft_lutpair11" *) 
-  LUT2 #(
-    .INIT(4'h8)) 
-    \vid_data[14]_INST_0 
-       (.I0(wait_done),
-        .I1(rgb565_data[9]),
-        .O(vid_data[9]));
-  (* SOFT_HLUTNM = "soft_lutpair12" *) 
-  LUT2 #(
-    .INIT(4'h8)) 
-    \vid_data[15]_INST_0 
-       (.I0(wait_done),
-        .I1(rgb565_data[10]),
-        .O(vid_data[10]));
-  (* SOFT_HLUTNM = "soft_lutpair12" *) 
-  LUT2 #(
-    .INIT(4'h8)) 
-    \vid_data[19]_INST_0 
-       (.I0(wait_done),
-        .I1(rgb565_data[11]),
+        .I1(\rgb565_data_reg_n_0_[6] ),
         .O(vid_data[11]));
-  (* SOFT_HLUTNM = "soft_lutpair13" *) 
   LUT2 #(
     .INIT(4'h8)) 
-    \vid_data[20]_INST_0 
+    vid_data_inferred_i_11
        (.I0(wait_done),
-        .I1(rgb565_data[12]),
-        .O(vid_data[12]));
-  (* SOFT_HLUTNM = "soft_lutpair13" *) 
+        .I1(\rgb565_data_reg_n_0_[5] ),
+        .O(vid_data[10]));
   LUT2 #(
     .INIT(4'h8)) 
-    \vid_data[21]_INST_0 
+    vid_data_inferred_i_12
        (.I0(wait_done),
-        .I1(rgb565_data[13]),
-        .O(vid_data[13]));
-  (* SOFT_HLUTNM = "soft_lutpair14" *) 
+        .I1(\rgb565_data_reg_n_0_[4] ),
+        .O(vid_data[7]));
   LUT2 #(
     .INIT(4'h8)) 
-    \vid_data[22]_INST_0 
+    vid_data_inferred_i_13
        (.I0(wait_done),
-        .I1(rgb565_data[14]),
-        .O(vid_data[14]));
-  (* SOFT_HLUTNM = "soft_lutpair14" *) 
+        .I1(\rgb565_data_reg_n_0_[3] ),
+        .O(vid_data[6]));
   LUT2 #(
     .INIT(4'h8)) 
-    \vid_data[23]_INST_0 
+    vid_data_inferred_i_14
        (.I0(wait_done),
-        .I1(rgb565_data[15]),
-        .O(vid_data[15]));
-  (* SOFT_HLUTNM = "soft_lutpair7" *) 
+        .I1(\rgb565_data_reg_n_0_[2] ),
+        .O(vid_data[5]));
   LUT2 #(
     .INIT(4'h8)) 
-    \vid_data[3]_INST_0 
+    vid_data_inferred_i_15
        (.I0(wait_done),
-        .I1(rgb565_data[0]),
-        .O(vid_data[0]));
-  (* SOFT_HLUTNM = "soft_lutpair7" *) 
-  LUT2 #(
-    .INIT(4'h8)) 
-    \vid_data[4]_INST_0 
-       (.I0(wait_done),
-        .I1(rgb565_data[1]),
-        .O(vid_data[1]));
-  (* SOFT_HLUTNM = "soft_lutpair8" *) 
-  LUT2 #(
-    .INIT(4'h8)) 
-    \vid_data[5]_INST_0 
-       (.I0(wait_done),
-        .I1(rgb565_data[2]),
-        .O(vid_data[2]));
-  (* SOFT_HLUTNM = "soft_lutpair8" *) 
-  LUT2 #(
-    .INIT(4'h8)) 
-    \vid_data[6]_INST_0 
-       (.I0(wait_done),
-        .I1(rgb565_data[3]),
-        .O(vid_data[3]));
-  (* SOFT_HLUTNM = "soft_lutpair9" *) 
-  LUT2 #(
-    .INIT(4'h8)) 
-    \vid_data[7]_INST_0 
-       (.I0(wait_done),
-        .I1(rgb565_data[4]),
+        .I1(\rgb565_data_reg_n_0_[1] ),
         .O(vid_data[4]));
   LUT2 #(
     .INIT(4'h8)) 
-    vid_vsync_INST_0
+    vid_data_inferred_i_16
+       (.I0(wait_done),
+        .I1(\rgb565_data_reg_n_0_[0] ),
+        .O(vid_data[3]));
+  LUT2 #(
+    .INIT(4'h8)) 
+    vid_data_inferred_i_2
+       (.I0(wait_done),
+        .I1(\rgb565_data_reg_n_0_[14] ),
+        .O(vid_data[22]));
+  LUT2 #(
+    .INIT(4'h8)) 
+    vid_data_inferred_i_3
+       (.I0(wait_done),
+        .I1(\rgb565_data_reg_n_0_[13] ),
+        .O(vid_data[21]));
+  LUT2 #(
+    .INIT(4'h8)) 
+    vid_data_inferred_i_4
+       (.I0(wait_done),
+        .I1(\rgb565_data_reg_n_0_[12] ),
+        .O(vid_data[20]));
+  LUT2 #(
+    .INIT(4'h8)) 
+    vid_data_inferred_i_5
+       (.I0(wait_done),
+        .I1(\rgb565_data_reg_n_0_[11] ),
+        .O(vid_data[19]));
+  LUT2 #(
+    .INIT(4'h8)) 
+    vid_data_inferred_i_6
+       (.I0(wait_done),
+        .I1(\rgb565_data_reg_n_0_[10] ),
+        .O(vid_data[15]));
+  LUT2 #(
+    .INIT(4'h8)) 
+    vid_data_inferred_i_7
+       (.I0(wait_done),
+        .I1(\rgb565_data_reg_n_0_[9] ),
+        .O(vid_data[14]));
+  LUT2 #(
+    .INIT(4'h8)) 
+    vid_data_inferred_i_8
+       (.I0(wait_done),
+        .I1(\rgb565_data_reg_n_0_[8] ),
+        .O(vid_data[13]));
+  LUT2 #(
+    .INIT(4'h8)) 
+    vid_data_inferred_i_9
+       (.I0(wait_done),
+        .I1(\rgb565_data_reg_n_0_[7] ),
+        .O(vid_data[12]));
+  LUT2 #(
+    .INIT(4'h8)) 
+    vid_vsync_inferred_i_1
        (.I0(wait_done),
         .I1(cam_vsync_d1),
         .O(vid_vsync));
@@ -587,42 +626,33 @@ module decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix
   output vid_active_video;
   output [23:0]vid_data;
 
-  wire \<const0> ;
   wire [7:0]cam_data;
   wire cam_href;
   wire cam_pclk;
   wire cam_vsync;
+  wire cam_xclk;
   wire i_xclk;
   wire rst_n;
   wire vid_active_video;
   wire vid_ce;
-  wire [23:3]\^vid_data ;
+  wire vid_clk;
+  wire [23:0]vid_data;
   wire vid_vsync;
 
-  assign cam_xclk = i_xclk;
-  assign vid_clk = cam_pclk;
-  assign vid_data[23:19] = \^vid_data [23:19];
-  assign vid_data[18] = \<const0> ;
-  assign vid_data[17] = \<const0> ;
-  assign vid_data[16] = \<const0> ;
-  assign vid_data[15:10] = \^vid_data [15:10];
-  assign vid_data[9] = \<const0> ;
-  assign vid_data[8] = \<const0> ;
-  assign vid_data[7:3] = \^vid_data [7:3];
-  assign vid_data[2] = \<const0> ;
-  assign vid_data[1] = \<const0> ;
-  assign vid_data[0] = \<const0> ;
-  GND GND
-       (.G(\<const0> ));
+  (* KEEP_HIERARCHY = "soft" *) 
+  (* WAIT_FRAME = "10" *) 
   decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_cam_captrue_data inst
        (.cam_data(cam_data),
         .cam_href(cam_href),
         .cam_pclk(cam_pclk),
         .cam_vsync(cam_vsync),
+        .cam_xclk(cam_xclk),
+        .i_xclk(i_xclk),
         .rst_n(rst_n),
         .vid_active_video(vid_active_video),
         .vid_ce(vid_ce),
-        .vid_data({\^vid_data [23:19],\^vid_data [15:10],\^vid_data [7:3]}),
+        .vid_clk(vid_clk),
+        .vid_data(vid_data),
         .vid_vsync(vid_vsync));
 endmodule
 `ifndef GLBL

@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
 -- Date        : Mon Apr  6 10:50:55 2026
 -- Host        : HC-202510241838 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               e:/FPGA_Project/2020_2/CNN/proj/vmda_test/vmda_test.srcs/sources_1/bd/design_1/ip/design_1_util_vector_logic_0_0/design_1_util_vector_logic_0_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top design_1_util_vector_logic_0_0 -prefix
+--               design_1_util_vector_logic_0_0_ design_1_util_vector_logic_0_0_sim_netlist.vhdl
 -- Design      : design_1_util_vector_logic_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.

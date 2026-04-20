@@ -5,16 +5,16 @@ module cam_captrue_data
     input         rst_n              ,//locked 
     //cam       
     input         cam_pclk           ,//内部always时序
-    input         cam_href           ,
-    input         cam_vsync          ,
-    input  [7:0]  cam_data           ,
-    output        cam_xclk           ,
+    (* MARK_DEBUG="true" *)input         cam_href           ,
+    (* MARK_DEBUG="true" *)input         cam_vsync          ,
+    (* MARK_DEBUG="true" *)input  [7:0]  cam_data           ,
+    (* MARK_DEBUG="true" *)output        cam_xclk           ,
     //video 的接口     
     output        vid_clk            ,//pclk
-    output        vid_ce             ,//控制vid_clk
-    output        vid_vsync          ,
-    output        vid_active_video   ,
-    output [23:0] vid_data
+    (* MARK_DEBUG="true" *)output        vid_ce             ,//控制vid_clk
+    (* MARK_DEBUG="true" *)output        vid_vsync          ,
+    (* MARK_DEBUG="true" *)output        vid_active_video   ,
+    (* MARK_DEBUG="true" *)output [23:0] vid_data
     
 );
 assign cam_xclk = i_xclk;

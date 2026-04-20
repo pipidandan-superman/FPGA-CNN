@@ -35,3 +35,45 @@ timestamp=[2026-04-19 13:13:40], mode=PLATFORM_GENERATION, duration=0:00:04.485,
 timestamp=[2026-04-19 13:13:40], mode=BUILD, duration=0:00:00.100, duration_ms=100, data={name=vdma_ctrl, configuration=Debug, clean_build=true}
 timestamp=[2026-04-19 13:13:41], mode=BUILD, duration=0:00:00.339, duration_ms=339, data={name=vdma_ctrl, configuration=Debug, clean_build=false}
 timestamp=[2026-04-19 13:13:46], mode=BUILD, duration=0:00:02.685, duration_ms=2685, data={name=vdma_ctrl_system, configuration=Debug, clean_build=false}
+timestamp=[2026-04-19 13:57:18], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.223, duration_ms=1223, data={}
+timestamp=[2026-04-19 13:59:29], mode=BUILD, duration=0:00:00.179, duration_ms=179, data={name=vdma_ctrl, configuration=Debug, clean_build=false}
+timestamp=[2026-04-19 13:59:32], mode=BUILD, duration=0:00:02.759, duration_ms=2759, data={name=vdma_ctrl_system, configuration=Debug, clean_build=false}
+timestamp=[2026-04-19 16:24:43], mode=PLATFORM_GENERATION, duration=0:00:02.466, duration_ms=2466, data={name=design_1_wrapper}
+timestamp=[2026-04-19 16:24:44], mode=BUILD, duration=0:00:00.336, duration_ms=336, data={name=vdma_ctrl, configuration=Debug, clean_build=false}
+timestamp=[2026-04-19 16:24:47], mode=BUILD, duration=0:00:02.685, duration_ms=2685, data={name=vdma_ctrl_system, configuration=Debug, clean_build=false}
+timestamp=[2026-04-19 16:45:50], mode=PLATFORM_GENERATION, duration=0:00:00.877, duration_ms=877, data={name=design_1_wrapper}
+timestamp=[2026-04-19 16:45:50], mode=BUILD, duration=0:00:00.093, duration_ms=93, data={name=vdma_ctrl, configuration=Debug, clean_build=true}
+timestamp=[2026-04-19 16:45:50], mode=BUILD, duration=0:00:00.095, duration_ms=95, data={name=vdma_ctrl_system, configuration=Debug, clean_build=true}
+timestamp=[2026-04-19 16:45:57], mode=PLATFORM_GENERATION, duration=0:00:04.306, duration_ms=4306, data={name=design_1_wrapper}
+timestamp=[2026-04-19 16:45:58], mode=BUILD, duration=0:00:00.405, duration_ms=405, data={name=vdma_ctrl, configuration=Debug, clean_build=false}
+timestamp=[2026-04-19 16:46:03], mode=BUILD, duration=0:00:02.676, duration_ms=2676, data={name=vdma_ctrl_system, configuration=Debug, clean_build=false}
+timestamp=[2026-04-19 16:47:11], mode=PLATFORM_GENERATION, duration=0:00:01.804, duration_ms=1804, data={name=design_1_wrapper}
+timestamp=[2026-04-19 16:47:11], mode=BUILD, duration=0:00:00.079, duration_ms=79, data={name=vdma_ctrl, configuration=Debug, clean_build=true}
+timestamp=[2026-04-19 16:47:11], mode=BUILD, duration=0:00:00.091, duration_ms=91, data={name=vdma_ctrl_system, configuration=Debug, clean_build=true}
+timestamp=[2026-04-19 16:47:19], mode=PLATFORM_GENERATION, duration=0:00:03.789, duration_ms=3789, data={name=design_1_wrapper}
+timestamp=[2026-04-19 16:47:19], mode=BUILD, duration=0:00:00.338, duration_ms=338, data={name=vdma_ctrl, configuration=Debug, clean_build=false}
+timestamp=[2026-04-19 16:47:22], mode=BUILD, duration=0:00:02.670, duration_ms=2670, data={name=vdma_ctrl_system, configuration=Debug, clean_build=false}
+timestamp=[2026-04-19 16:52:35], mode=PLATFORM_GENERATION, duration=0:00:01.832, duration_ms=1832, data={name=design_1_wrapper}
+timestamp=[2026-04-19 16:52:35], mode=BUILD, duration=0:00:00.093, duration_ms=93, data={name=vdma_ctrl, configuration=Debug, clean_build=true}
+timestamp=[2026-04-19 16:52:35], mode=BUILD, duration=0:00:00.095, duration_ms=95, data={name=vdma_ctrl_system, configuration=Debug, clean_build=true}
+timestamp=[2026-04-19 16:52:55], mode=PLATFORM_GENERATION, duration=0:00:03.861, duration_ms=3861, data={name=design_1_wrapper}
+timestamp=[2026-04-19 16:52:55], mode=BUILD, duration=0:00:00.352, duration_ms=352, data={name=vdma_ctrl, configuration=Debug, clean_build=false}
+timestamp=[2026-04-19 16:52:58], mode=BUILD, duration=0:00:02.703, duration_ms=2703, data={name=vdma_ctrl_system, configuration=Debug, clean_build=false}
+timestamp=[2026-04-19 16:56:12], mode=PLATFORM_GENERATION, duration=0:00:01.819, duration_ms=1819, data={name=design_1_wrapper}
+timestamp=[2026-04-19 16:56:13], mode=BUILD, duration=0:00:00.096, duration_ms=96, data={name=vdma_ctrl, configuration=Debug, clean_build=true}
+timestamp=[2026-04-19 16:56:13], mode=BUILD, duration=0:00:00.095, duration_ms=95, data={name=vdma_ctrl_system, configuration=Debug, clean_build=true}
+timestamp=[2026-04-19 16:56:23], mode=PLATFORM_GENERATION, duration=0:00:03.849, duration_ms=3849, data={name=design_1_wrapper}
+timestamp=[2026-04-19 16:56:23], mode=BUILD, duration=0:00:00.332, duration_ms=332, data={name=vdma_ctrl, configuration=Debug, clean_build=false}
+timestamp=[2026-04-19 16:56:26], mode=BUILD, duration=0:00:02.750, duration_ms=2750, data={name=vdma_ctrl_system, configuration=Debug, clean_build=false}
+timestamp=[2026-04-19 17:26:16], mode=PLATFORM_GENERATION, duration=0:00:01.006, duration_ms=1006, data={name=design_1_wrapper}
+timestamp=[2026-04-19 17:26:16], mode=BUILD, duration=0:00:00.109, duration_ms=109, data={name=vdma_ctrl, configuration=Debug, clean_build=true}
+timestamp=[2026-04-19 17:26:16], mode=BUILD, duration=0:00:00.093, duration_ms=93, data={name=vdma_ctrl_system, configuration=Debug, clean_build=true}
+timestamp=[2026-04-19 17:26:25], mode=PLATFORM_GENERATION, duration=0:00:05.767, duration_ms=5767, data={name=design_1_wrapper}
+timestamp=[2026-04-19 17:26:26], mode=BUILD, duration=0:00:00.476, duration_ms=476, data={name=vdma_ctrl, configuration=Debug, clean_build=false}
+timestamp=[2026-04-19 17:26:31], mode=BUILD, duration=0:00:02.798, duration_ms=2798, data={name=vdma_ctrl_system, configuration=Debug, clean_build=false}
+timestamp=[2026-04-19 17:37:36], mode=PLATFORM_GENERATION, duration=0:00:00.939, duration_ms=939, data={name=design_1_wrapper}
+timestamp=[2026-04-19 17:37:36], mode=BUILD, duration=0:00:00.092, duration_ms=92, data={name=vdma_ctrl, configuration=Debug, clean_build=true}
+timestamp=[2026-04-19 17:37:36], mode=BUILD, duration=0:00:00.095, duration_ms=95, data={name=vdma_ctrl_system, configuration=Debug, clean_build=true}
+timestamp=[2026-04-19 17:37:44], mode=PLATFORM_GENERATION, duration=0:00:05.226, duration_ms=5226, data={name=design_1_wrapper}
+timestamp=[2026-04-19 17:37:45], mode=BUILD, duration=0:00:00.406, duration_ms=406, data={name=vdma_ctrl, configuration=Debug, clean_build=false}
+timestamp=[2026-04-19 17:37:49], mode=BUILD, duration=0:00:02.745, duration_ms=2745, data={name=vdma_ctrl_system, configuration=Debug, clean_build=false}

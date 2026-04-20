@@ -4,6 +4,8 @@
     <instance id="xilinx.gnu.armv7.exe.debug.1633222549;xilinx.gnu.armv7.exe.debug.1633222549.">
                 
         <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+            <includePath path="#undef __ARM_FEATURE_DOTPROD" removed="true"/>
+            <includePath path="#undef __ARM_FEATURE_COMPLEX" removed="true"/>
             <includePath path="#undef __ARM_FP16_FORMAT_IEEE" removed="true"/>
             <includePath path="#undef __ARM_FP16_FORMAT_ALTERNATIVE" removed="true"/>
             <includePath path="#undef __thumb__" removed="true"/>
@@ -15,6 +17,7 @@
             <includePath path="#undef __ARM_FEATURE_LDREX" removed="true"/>
             <includePath path="#undef __ARM_ARCH_PROFILE" removed="true"/>
             <includePath path="d:\work\vivado_2020_2\vitis\2020.2\gnu\aarch32\nt\gcc-arm-none-eabi\x86_64-oesdk-mingw32\usr\bin\arm-xilinx-eabi\../../lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/9.2.0/include-fixed"/>
+            <includePath path="#undef __ARM_FEATURE_SIMD32" removed="true"/>
             <includePath path="#undef __ARM_FEATURE_FP16_FML" removed="true"/>
             <includePath path="#undef __ARM_FEATURE_FP16_SCALAR_ARITHMETIC" removed="true"/>
             <includePath path="#undef __ARM_ARCH_ISA_THUMB" removed="true"/>
@@ -1281,6 +1284,9 @@
     <instance id="xilinx.gnu.armv7.exe.debug.1633222549;xilinx.gnu.armv7.exe.debug.1633222549.;xilinx.gnu.armv7.c.toolchain.compiler.debug.1503476245;xilinx.gnu.armv7.c.compiler.input.1598156804">
                 
         <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+            <includePath path="#undef __ARM_FP16_FORMAT_IEEE" removed="true"/>
+            <includePath path="#undef __ARM_FEATURE_CMSE" removed="true"/>
+            <includePath path="#undef __ARM_FEATURE_DSP" removed="true"/>
             <includePath path="#undef __ARM_FEATURE_QBIT" removed="true"/>
             <includePath path="#undef __ARM_FEATURE_SAT" removed="true"/>
             <includePath path="#undef __ARM_ARCH" removed="true"/>
@@ -1289,10 +1295,12 @@
             <includePath path="#undef __ARM_FEATURE_NUMERIC_MAXMIN" removed="true"/>
             <includePath path="#undef __ARM_FEATURE_SIMD32" removed="true"/>
             <includePath path="d:\work\vivado_2020_2\vitis\2020.2\gnu\aarch32\nt\gcc-arm-none-eabi\x86_64-oesdk-mingw32\usr\bin\arm-xilinx-eabi\../../lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/9.2.0/include"/>
+            <includePath path="#undef __ARM_FEATURE_LDREX" removed="true"/>
             <includePath path="#undef __ARM_FEATURE_CRYPTO" removed="true"/>
             <includePath path="#undef __THUMBEL__" removed="true"/>
             <includePath path="#undef __ARM_FEATURE_FP16_SCALAR_ARITHMETIC" removed="true"/>
             <includePath path="d:\work\vivado_2020_2\vitis\2020.2\gnu\aarch32\nt\gcc-arm-none-eabi\x86_64-oesdk-mingw32\usr\bin\arm-xilinx-eabi\../../lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/9.2.0/include-fixed"/>
+            <includePath path="#undef __ARM_FEATURE_CLZ" removed="true"/>
             <includePath path="#undef __ARM_FEATURE_UNALIGNED" removed="true"/>
             <includePath path="#undef __ARM_ARCH_ISA_THUMB" removed="true"/>
             <includePath path="#undef __ARM_FEATURE_FP16_VECTOR_ARITHMETIC" removed="true"/>

@@ -70,6 +70,10 @@
 #define VDMASR_SGINTERR     0x00000200  // SG内部错误
 #define VDMASR_FRMCNT_SHIFT 16          // 帧计数偏移
 
+/************************** 测试模式选择 **************************/
+// 设置为1时显示彩条测试图案，设置为0时正常摄像头显示
+#define TEST_COLOR_BAR      1
+
 /************************** 函数声明 **************************/
 
 void VDMA_Reset(void);
@@ -77,6 +81,8 @@ void VDMA_Configure_S2MM(void);
 void VDMA_Configure_MM2S(void);
 void VDMA_PrintStatus(void);
 u32 VDMA_GetFrameCount(u32 channel);
+void Fill_ColorBar(u32 *frame_buffer);
+void Clear_FrameBuffer(u32 *frame_buffer, u32 color);
 
 /************************** 主函数 **************************/
 
@@ -87,6 +93,11 @@ int main()
     printf("OV5640 Camera to HDMI Display System\n");
     printf("Resolution: %d x %d\n", H_ACTIVE, V_ACTIVE);
     printf("Clock: FCLK_CLK0 = 150 MHz\n");
+#if TEST_COLOR_BAR
+    printf("Mode: COLOR BAR TEST\n");
+#else
+    printf("Mode: Camera Capture\n");
+#endif
     printf("========================================\n\n");
 
     // Step 1: 复位VDMA
@@ -94,40 +105,58 @@ int main()
     VDMA_Reset();
     printf("VDMA reset complete.\n\n");
 
-    // Step 2: 配置S2MM通道 (摄像头 -> DDR)
+#if TEST_COLOR_BAR
+    // 彩条测试模式: 只配置MM2S通道，填充彩条数据
+    printf("Step 2: Filling color bar pattern...\n");
+    Fill_ColorBar((u32 *)FRAME_BUFFER_1);
+    Fill_ColorBar((u32 *)FRAME_BUFFER_2);
+    Fill_ColorBar((u32 *)FRAME_BUFFER_3);
+    printf("Color bar filled in frame buffers.\n\n");
+
+    printf("Step 3: Configuring MM2S channel (DDR -> HDMI)...\n");
+    VDMA_Configure_MM2S();
+    printf("MM2S configured.\n\n");
+#else
+    // 正常模式: 配置双通道
     printf("Step 2: Configuring S2MM channel (Camera -> DDR)...\n");
     VDMA_Configure_S2MM();
     printf("S2MM configured.\n\n");
 
-    // Step 3: 配置MM2S通道 (DDR -> HDMI)
     printf("Step 3: Configuring MM2S channel (DDR -> HDMI)...\n");
     VDMA_Configure_MM2S();
     printf("MM2S configured.\n\n");
+#endif
 
     // Step 4: 打印状态
     printf("Step 4: VDMA Status:\n");
     VDMA_PrintStatus();
 
     printf("\n========================================\n");
+#if TEST_COLOR_BAR
+    printf("COLOR BAR TEST MODE\n");
+    printf("You should see 8 color bars on HDMI!\n");
+    printf("If no display, check HDMI/VTC/VDMA.\n");
+#else
     printf("System Running!\n");
     printf("Camera should be outputting video.\n");
     printf("Check HDMI output for display.\n");
+#endif
     printf("========================================\n\n");
 
     // 主循环 - 监控状态
     while(1)
     {
-        // 可以添加帧率监控或其他处理
-        // 例如: 检测帧计数变化
         static u32 last_frame = 0;
-        u32 current_frame = VDMA_GetFrameCount(0);  // 0=S2MM, 1=MM2S
+        u32 current_frame = VDMA_GetFrameCount(1);  // MM2S帧计数
 
         if (current_frame != last_frame)
         {
-            // 每秒打印一次帧计数
-            // printf("Frame: %d\n", current_frame);
+            printf("MM2S Frame: %d\n", current_frame);
             last_frame = current_frame;
         }
+
+        // 简单延时
+        for(volatile int i = 0; i < 10000000; i++);
     }
 
     return XST_SUCCESS;
@@ -261,4 +290,45 @@ u32 VDMA_GetFrameCount(u32 channel)
     }
 
     return (status >> VDMASR_FRMCNT_SHIFT) & 0xFF;
+}
+
+/************************** 填充彩条图案 **************************/
+
+void Fill_ColorBar(u32 *frame_buffer)
+{
+    // 8色彩条: 白、黄、青、绿、紫、红、蓝、黑
+    // RGB格式: [23:16]=R, [15:8]=G, [7:0]=B
+    u32 colors[8] = {
+        0xFFFFFF,   // 白色 (R=255, G=255, B=255)
+        0xFFFF00,   // 黄色 (R=255, G=255, B=0)
+        0x00FFFF,   // 青色 (R=0, G=255, B=255)
+        0x00FF00,   // 绿色 (R=0, G=255, B=0)
+        0xFF00FF,   // 紫色 (R=255, G=0, B=255)
+        0xFF0000,   // 红色 (R=255, G=0, B=0)
+        0x0000FF,   // 蓝色 (R=0, G=0, B=255)
+        0x000000    // 黑色 (R=0, G=0, B=0)
+    };
+
+    int bar_width = H_ACTIVE / 8;
+
+    for (int y = 0; y < V_ACTIVE; y++) {
+        for (int x = 0; x < H_ACTIVE; x++) {
+            int bar_index = x / bar_width;
+            if (bar_index > 7) bar_index = 7;
+            frame_buffer[y * H_ACTIVE + x] = colors[bar_index];
+        }
+    }
+
+    // 刷新缓存
+    Xil_DCacheFlush();
+}
+
+/************************** 清空帧缓冲 **************************/
+
+void Clear_FrameBuffer(u32 *frame_buffer, u32 color)
+{
+    for (int i = 0; i < H_ACTIVE * V_ACTIVE; i++) {
+        frame_buffer[i] = color;
+    }
+    Xil_DCacheFlush();
 }

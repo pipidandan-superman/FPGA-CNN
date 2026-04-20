@@ -56,9 +56,10 @@
 //  Output     Output      Phase    Duty Cycle   Pk-to-Pk     Phase
 //   Clock     Freq (MHz)  (degrees)    (%)     Jitter (ps)  Error (ps)
 //----------------------------------------------------------------------------
-// ____pclk__75.00000______0.000______50.0______203.313____227.339
-// _pclk_x5__375.00000______0.000______50.0______163.008____227.339
-// ____xclk__23.93617______0.000______50.0______256.428____227.339
+// ____pclk__25.00000______0.000______50.0______181.247____150.621
+// _pclk_x5__125.00000______0.000______50.0______129.582____150.621
+// ____xclk__24.03846______0.000______50.0______183.185____150.621
+// _clk_50m__50.00000______0.000______50.0______152.947____150.621
 //
 //----------------------------------------------------------------------------
 // Input Clock   Freq (MHz)    Input Jitter (UI)
@@ -67,7 +68,7 @@
 
 `timescale 1ps/1ps
 
-(* CORE_GENERATION_INFO = "design_1_clk_wiz_0_0,clk_wiz_v6_0_6_0_0,{component_name=design_1_clk_wiz_0_0,use_phase_alignment=true,use_min_o_jitter=false,use_max_i_jitter=false,use_dyn_phase_shift=false,use_inclk_switchover=false,use_dyn_reconfig=false,enable_axi=0,feedback_source=FDBK_AUTO,PRIMITIVE=PLL,num_out_clk=3,clkin1_period=20.000,clkin2_period=10.0,use_power_down=false,use_reset=true,use_locked=true,use_inclk_stopped=false,feedback_type=SINGLE,CLOCK_MGR_TYPE=NA,manual_override=false}" *)
+(* CORE_GENERATION_INFO = "design_1_clk_wiz_0_0,clk_wiz_v6_0_6_0_0,{component_name=design_1_clk_wiz_0_0,use_phase_alignment=true,use_min_o_jitter=false,use_max_i_jitter=false,use_dyn_phase_shift=false,use_inclk_switchover=false,use_dyn_reconfig=false,enable_axi=0,feedback_source=FDBK_AUTO,PRIMITIVE=PLL,num_out_clk=4,clkin1_period=20.000,clkin2_period=10.0,use_power_down=false,use_reset=true,use_locked=true,use_inclk_stopped=false,feedback_type=SINGLE,CLOCK_MGR_TYPE=NA,manual_override=false}" *)
 
 module design_1_clk_wiz_0_0 
  (
@@ -75,6 +76,7 @@ module design_1_clk_wiz_0_0
   output        pclk,
   output        pclk_x5,
   output        xclk,
+  output        clk_50m,
   // Status and control signals
   input         resetn,
   output        locked,
@@ -88,6 +90,7 @@ module design_1_clk_wiz_0_0
   .pclk(pclk),
   .pclk_x5(pclk_x5),
   .xclk(xclk),
+  .clk_50m(clk_50m),
   // Status and control signals               
   .resetn(resetn), 
   .locked(locked),

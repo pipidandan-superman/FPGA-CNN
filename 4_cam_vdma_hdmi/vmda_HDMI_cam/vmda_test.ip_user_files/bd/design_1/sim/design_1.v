@@ -1,7 +1,7 @@
 //Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-//Date        : Sun Apr 19 10:06:44 2026
+//Date        : Sun Apr 19 17:01:48 2026
 //Host        : HC-202510241838 running 64-bit major release  (build 9200)
 //Command     : generate_target design_1.bd
 //Design      : design_1
@@ -9,7 +9,7 @@
 //--------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CORE_GENERATION_INFO = "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=23,numReposBlks=17,numNonXlnxBlks=0,numHierBlks=6,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=4,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=3,da_clkrst_cnt=3,da_ps7_cnt=1,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "design_1.hwdef" *) 
+(* CORE_GENERATION_INFO = "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=22,numReposBlks=16,numNonXlnxBlks=0,numHierBlks=6,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=4,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=3,da_clkrst_cnt=3,da_ps7_cnt=1,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "design_1.hwdef" *) 
 module design_1
    (DDR_addr,
     DDR_ba,
@@ -43,6 +43,7 @@ module design_1
     cam_xclk_0,
     clk_in1_0,
     hdmi_en_0,
+    sccb_cfg_done_0,
     sccb_clk_0,
     sccb_data_0,
     sys_rst_n_0);
@@ -78,6 +79,7 @@ module design_1
   output cam_xclk_0;
   (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 CLK.CLK_IN1_0 CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME CLK.CLK_IN1_0, ASSOCIATED_RESET sys_rst_n_0, CLK_DOMAIN design_1_clk_in1_0, FREQ_HZ 50000000, FREQ_TOLERANCE_HZ 0, INSERT_VIP 0, PHASE 0.000" *) input clk_in1_0;
   output hdmi_en_0;
+  output sccb_cfg_done_0;
   (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 CLK.SCCB_CLK_0 CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME CLK.SCCB_CLK_0, CLK_DOMAIN design_1_ov5640_cfg_top_0_0_sccb_clk, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, INSERT_VIP 0, PHASE 0.000" *) output sccb_clk_0;
   inout sccb_data_0;
   (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 RST.SYS_RST_N_0 RST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME RST.SYS_RST_N_0, INSERT_VIP 0, POLARITY ACTIVE_LOW" *) input sys_rst_n_0;
@@ -172,6 +174,7 @@ module design_1
   wire cam_pclk_0_1;
   wire cam_vsync_0_1;
   wire clk_in1_0_1;
+  wire clk_wiz_0_clk_50m;
   wire clk_wiz_0_locked;
   wire clk_wiz_0_pclk;
   wire clk_wiz_0_pclk_x5;
@@ -179,6 +182,7 @@ module design_1
   wire [7:0]data_gen_0_data_b_o;
   wire [7:0]data_gen_0_data_g_o;
   wire [7:0]data_gen_0_data_r_o;
+  wire ov5640_cfg_top_0_sccb_cfg_done;
   wire ov5640_cfg_top_0_sccb_clk;
   wire [14:0]processing_system7_0_DDR_ADDR;
   wire [2:0]processing_system7_0_DDR_BA;
@@ -260,7 +264,6 @@ module design_1
   wire [0:0]rst_ps7_0_200M_peripheral_aresetn;
   wire sys_rst_n_0_1;
   wire [0:0]util_vector_logic_0_Res;
-  wire [0:0]util_vector_logic_1_Res;
   wire v_axi4s_vid_out_0_vid_active_video;
   wire [23:0]v_axi4s_vid_out_0_vid_data;
   wire v_axi4s_vid_out_0_vid_hsync;
@@ -288,6 +291,7 @@ module design_1
   assign cam_xclk_0 = cam_captrue_data_0_cam_xclk;
   assign clk_in1_0_1 = clk_in1_0;
   assign hdmi_en_0 = HDMI_top_0_hdmi_en;
+  assign sccb_cfg_done_0 = ov5640_cfg_top_0_sccb_cfg_done;
   assign sccb_clk_0 = ov5640_cfg_top_0_sccb_clk;
   assign sys_rst_n_0_1 = sys_rst_n_0;
   design_1_HDMI_top_0_0 HDMI_top_0
@@ -458,7 +462,8 @@ module design_1
         .vid_data(cam_captrue_data_0_vid_data),
         .vid_vsync(cam_captrue_data_0_vid_vsync));
   design_1_clk_wiz_0_0 clk_wiz_0
-       (.clk_in1(clk_in1_0_1),
+       (.clk_50m(clk_wiz_0_clk_50m),
+        .clk_in1(clk_in1_0_1),
         .locked(clk_wiz_0_locked),
         .pclk(clk_wiz_0_pclk),
         .pclk_x5(clk_wiz_0_pclk_x5),
@@ -471,10 +476,11 @@ module design_1
         .data_r_o(data_gen_0_data_r_o),
         .de(v_axi4s_vid_out_0_vid_active_video));
   design_1_ov5640_cfg_top_0_0 ov5640_cfg_top_0
-       (.sccb_clk(ov5640_cfg_top_0_sccb_clk),
+       (.sccb_cfg_done(ov5640_cfg_top_0_sccb_cfg_done),
+        .sccb_clk(ov5640_cfg_top_0_sccb_clk),
         .sccb_data(sccb_data_0),
-        .sys_clk(clk_in1_0_1),
-        .sys_rst_n(sys_rst_n_0_1));
+        .sys_clk(clk_wiz_0_clk_50m),
+        .sys_rst_n(clk_wiz_0_locked));
   design_1_processing_system7_0_0 processing_system7_0
        (.DDR_Addr(DDR_addr[14:0]),
         .DDR_BankAddr(DDR_ba[2:0]),
@@ -650,9 +656,6 @@ module design_1
   design_1_util_vector_logic_0_0 util_vector_logic_0
        (.Op1(clk_wiz_0_locked),
         .Res(util_vector_logic_0_Res));
-  design_1_util_vector_logic_0_1 util_vector_logic_1
-       (.Op1(cam_captrue_data_0_vid_ce),
-        .Res(util_vector_logic_1_Res));
   design_1_v_axi4s_vid_out_0_0 v_axi4s_vid_out_0
        (.aclk(processing_system7_0_FCLK_CLK0),
         .aclken(Net),
@@ -703,7 +706,7 @@ module design_1
         .vid_field_id(1'b0),
         .vid_hblank(1'b0),
         .vid_hsync(1'b0),
-        .vid_io_in_ce(util_vector_logic_1_Res),
+        .vid_io_in_ce(cam_captrue_data_0_vid_ce),
         .vid_io_in_clk(cam_captrue_data_0_vid_clk),
         .vid_io_in_reset(clk_wiz_0_locked),
         .vid_vblank(1'b0),

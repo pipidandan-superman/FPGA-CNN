@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date         : Sun Apr 19 11:54:49 2026
+| Date         : Sun Apr 19 19:26:35 2026
 | Host         : HC-202510241838 running 64-bit major release  (build 9200)
 | Command      : report_drc -file design_1_wrapper_drc_opted.rpt -pb design_1_wrapper_drc_opted.pb -rpx design_1_wrapper_drc_opted.rpx
 | Design       : design_1_wrapper
@@ -20,15 +20,16 @@ Table of Contents
 1. REPORT SUMMARY
 -----------------
             Netlist: netlist
-          Floorplan: design_1
+          Floorplan: checkpoint_design_1_wrapper
       Design limits: <entire design considered>
            Ruledeck: default
              Max violations: <unlimited>
-             Violations found: 17
+             Violations found: 19
 +-----------+----------+---------------------------------+------------+
 | Rule      | Severity | Description                     | Violations |
 +-----------+----------+---------------------------------+------------+
 | AVAL-70   | Warning  | OSERDES_DataRateTqTriWidth      | 8          |
+| IOSR-1    | Warning  | IOB set reset sharing           | 2          |
 | PLCK-12   | Warning  | Clock Placer Checks             | 1          |
 | REQP-1839 | Warning  | RAMB36 async control check      | 3          |
 | RPBF-3    | Warning  | IO port buffering is incomplete | 1          |
@@ -76,6 +77,18 @@ Related violations: <none>
 AVAL-70#8 Warning
 OSERDES_DataRateTqTriWidth  
 Unexpected programming for design_1_i/HDMI_top_0/inst/u_pra_to_ser_r/OSERDESE2_slave with TRISTATE_WIDTH. DATA_RATE_TQ set DDR expects TRISTATE_WIDTH to be set 4
+Related violations: <none>
+
+IOSR-1#1 Warning
+IOB set reset sharing  
+IO cam_href_0 connects to flops which have these design_1_i/cam_captrue_data_0/inst/cam_href_d0_i_1_n_0
+u_ila_0/inst/ila_core_inst/use_probe_debug_circuit set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
+Related violations: <none>
+
+IOSR-1#2 Warning
+IOB set reset sharing  
+IO cam_vsync_0 connects to flops which have these design_1_i/cam_captrue_data_0/inst/cam_href_d0_i_1_n_0
+u_ila_0/inst/ila_core_inst/use_probe_debug_circuit set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
 Related violations: <none>
 
 PLCK-12#1 Warning

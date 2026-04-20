@@ -223,4 +223,46 @@ write_hw_platform -fixed -force -file E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma
 
 ---
 
+## 九、HDMI无显示问题修复 (2026/04/19)
+
+### 9.1 问题分析
+
+用户报告Vitis程序运行后HDMI无显示。经过分析发现：
+
+**根本原因**: VTC循环依赖
+- VTC的`gen_clken`引脚连接到`v_axi4s_vid_out`的`vtg_ce`
+- VTC需要`gen_clken=1`才能生成时序信号
+- `v_axi4s_vid_out`需要VTC时序信号才能输出`vtg_ce=1`
+- 形成"鸡生蛋，蛋生鸡"的死锁
+
+### 9.2 解决方案
+
+修改Block Design连接：
+- **修改前**: `v_axi4s_vid_out_0/vtg_ce` → `v_tc_0/gen_clken`
+- **修改后**: `clk_wiz_0/locked` → `v_tc_0/gen_clken`
+
+将VTC的`gen_clken`连接到Clock Wizard的`locked`信号，PLL锁定后VTC持续生成时序。
+
+### 9.3 修复结果
+
+| 项目 | 状态 |
+|------|------|
+| Block Design修改 | ✅ 完成 |
+| 重新综合 | ✅ 完成 |
+| 重新实现 | ✅ 完成 |
+| 时序收敛 | ✅ WNS=0.290ns |
+| Bitstream生成 | ✅ 完成 |
+| XSA导出 | ✅ 完成 |
+| BSP重新生成 | ✅ 完成 |
+| 应用程序编译 | ✅ 完成 |
+| ELF文件 | ✅ 284KB |
+
+### 9.4 后续测试
+
+1. 在Vitis中运行程序
+2. 检查HDMI是否有显示输出
+3. 测试摄像头采集功能
+
+---
+
 *文档结束*

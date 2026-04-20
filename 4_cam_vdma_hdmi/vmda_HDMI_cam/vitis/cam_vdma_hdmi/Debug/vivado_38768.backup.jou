@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Apr 19 13:29:05 2026
+# Process ID: 38768
+# Current directory: E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/cam_vdma_hdmi/Debug
+# Command line: vivado.exe -mode tcl -source E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/help/force_rebuild.tcl
+# Log file: E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/cam_vdma_hdmi/Debug/vivado.log
+# Journal file: E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/cam_vdma_hdmi/Debug\vivado.jou
+#-----------------------------------------------------------
+source E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/help/force_rebuild.tcl

@@ -59,6 +59,8 @@
                                 								
                                 <option id="xilinx.gnu.compiler.misc.other.854112828" name="Other flags" superClass="xilinx.gnu.compiler.misc.other" value="-c -fmessage-length=0 -MT&quot;$@&quot; -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard" valueType="string"/>
                                 								
+                                <option id="xilinx.gnu.compiler.inferred.swplatform.flags.1457020708" superClass="xilinx.gnu.compiler.inferred.swplatform.flags" value="  " valueType="string"/>
+                                								
                                 <inputType id="xilinx.gnu.armv7.c.compiler.input.1598156804" name="C source files" superClass="xilinx.gnu.armv7.c.compiler.input"/>
                                 							
                             </tool>
@@ -74,6 +76,8 @@
                                     <listOptionValue builtIn="false" value="${resolvePlatformFile:project=vdma_ctrl,fileType=bspInclude}"/>
                                     								
                                 </option>
+                                								
+                                <option id="xilinx.gnu.compiler.inferred.swplatform.flags.1173692083" superClass="xilinx.gnu.compiler.inferred.swplatform.flags" value="  " valueType="string"/>
                                 							
                             </tool>
                             							
@@ -90,6 +94,10 @@
                                 <option id="xilinx.gnu.linker.inferred.swplatform.flags.442362919" name="Software Platform Inferred Flags" superClass="xilinx.gnu.linker.inferred.swplatform.flags" valueType="libs">
                                     									
                                     <listOptionValue builtIn="false" value="-Wl,--start-group,-lxil,-lgcc,-lc,--end-group"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="-Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="-Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group"/>
                                     								
                                 </option>
                                 								
@@ -120,6 +128,10 @@
                                 <option id="xilinx.gnu.linker.inferred.swplatform.flags.249540068" name="Software Platform Inferred Flags" superClass="xilinx.gnu.linker.inferred.swplatform.flags" valueType="libs">
                                     									
                                     <listOptionValue builtIn="false" value="-Wl,--start-group,-lxil,-lgcc,-lc,--end-group"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="-Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="-Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group"/>
                                     								
                                 </option>
                                 								
@@ -203,6 +215,8 @@
                                 								
                                 <option id="xilinx.gnu.compiler.misc.other.1872878715" superClass="xilinx.gnu.compiler.misc.other" value="-c -fmessage-length=0 -MT&quot;$@&quot; -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard" valueType="string"/>
                                 								
+                                <option id="xilinx.gnu.compiler.inferred.swplatform.flags.121528843" superClass="xilinx.gnu.compiler.inferred.swplatform.flags" value="  " valueType="string"/>
+                                								
                                 <inputType id="xilinx.gnu.armv7.c.compiler.input.1882611057" name="C source files" superClass="xilinx.gnu.armv7.c.compiler.input"/>
                                 							
                             </tool>
@@ -218,6 +232,8 @@
                                     <listOptionValue builtIn="false" value="${resolvePlatformFile:project=vdma_ctrl,fileType=bspInclude}"/>
                                     								
                                 </option>
+                                								
+                                <option id="xilinx.gnu.compiler.inferred.swplatform.flags.1280466632" superClass="xilinx.gnu.compiler.inferred.swplatform.flags" value="  " valueType="string"/>
                                 							
                             </tool>
                             							
@@ -234,6 +250,10 @@
                                 <option id="xilinx.gnu.linker.inferred.swplatform.flags.388477765" superClass="xilinx.gnu.linker.inferred.swplatform.flags" valueType="libs">
                                     									
                                     <listOptionValue builtIn="false" value="-Wl,--start-group,-lxil,-lgcc,-lc,--end-group"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="-Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="-Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group"/>
                                     								
                                 </option>
                                 								
@@ -264,6 +284,10 @@
                                 <option id="xilinx.gnu.linker.inferred.swplatform.flags.573971095" superClass="xilinx.gnu.linker.inferred.swplatform.flags" valueType="libs">
                                     									
                                     <listOptionValue builtIn="false" value="-Wl,--start-group,-lxil,-lgcc,-lc,--end-group"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="-Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="-Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group"/>
                                     								
                                 </option>
                                 								

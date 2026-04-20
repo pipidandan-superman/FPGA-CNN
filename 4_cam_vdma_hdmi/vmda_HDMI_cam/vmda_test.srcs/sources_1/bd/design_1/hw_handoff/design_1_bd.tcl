@@ -179,6 +179,7 @@ proc create_root_design { parentCell } {
   set cam_xclk_0 [ create_bd_port -dir O cam_xclk_0 ]
   set clk_in1_0 [ create_bd_port -dir I -type clk -freq_hz 50000000 clk_in1_0 ]
   set hdmi_en_0 [ create_bd_port -dir O hdmi_en_0 ]
+  set sccb_cfg_done_0 [ create_bd_port -dir O sccb_cfg_done_0 ]
   set sccb_clk_0 [ create_bd_port -dir O -type clk sccb_clk_0 ]
   set sccb_data_0 [ create_bd_port -dir IO sccb_data_0 ]
   set sys_rst_n_0 [ create_bd_port -dir I -type rst sys_rst_n_0 ]
@@ -418,14 +419,6 @@ proc create_root_design { parentCell } {
    CONFIG.LOGO_FILE {data/sym_notgate.png} \
  ] $util_vector_logic_0
 
-  # Create instance: util_vector_logic_1, and set properties
-  set util_vector_logic_1 [ create_bd_cell -type ip -vlnv xilinx.com:ip:util_vector_logic:2.0 util_vector_logic_1 ]
-  set_property -dict [ list \
-   CONFIG.C_OPERATION {not} \
-   CONFIG.C_SIZE {1} \
-   CONFIG.LOGO_FILE {data/sym_notgate.png} \
- ] $util_vector_logic_1
-
   # Create instance: v_axi4s_vid_out_0, and set properties
   set v_axi4s_vid_out_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:v_axi4s_vid_out:4.0 v_axi4s_vid_out_0 ]
   set_property -dict [ list \
@@ -483,7 +476,7 @@ proc create_root_design { parentCell } {
   connect_bd_net -net Net1 [get_bd_ports sccb_data_0] [get_bd_pins ov5640_cfg_top_0/sccb_data]
   connect_bd_net -net cam_captrue_data_0_cam_xclk [get_bd_ports cam_xclk_0] [get_bd_pins cam_captrue_data_0/cam_xclk]
   connect_bd_net -net cam_captrue_data_0_vid_active_video [get_bd_pins cam_captrue_data_0/vid_active_video] [get_bd_pins v_vid_in_axi4s_0/vid_active_video]
-  connect_bd_net -net cam_captrue_data_0_vid_ce [get_bd_pins cam_captrue_data_0/vid_ce] [get_bd_pins util_vector_logic_1/Op1]
+  connect_bd_net -net cam_captrue_data_0_vid_ce [get_bd_pins cam_captrue_data_0/vid_ce] [get_bd_pins v_vid_in_axi4s_0/vid_io_in_ce]
   connect_bd_net -net cam_captrue_data_0_vid_clk [get_bd_pins cam_captrue_data_0/vid_clk] [get_bd_pins v_vid_in_axi4s_0/vid_io_in_clk]
   connect_bd_net -net cam_captrue_data_0_vid_data [get_bd_pins cam_captrue_data_0/vid_data] [get_bd_pins v_vid_in_axi4s_0/vid_data]
   connect_bd_net -net cam_captrue_data_0_vid_vsync [get_bd_pins cam_captrue_data_0/vid_vsync] [get_bd_pins v_vid_in_axi4s_0/vid_vsync]
@@ -500,13 +493,13 @@ proc create_root_design { parentCell } {
   connect_bd_net -net data_gen_0_data_b_o [get_bd_pins HDMI_top_0/blue_data] [get_bd_pins data_gen_0/data_b_o]
   connect_bd_net -net data_gen_0_data_g_o [get_bd_pins HDMI_top_0/green_data] [get_bd_pins data_gen_0/data_g_o]
   connect_bd_net -net data_gen_0_data_r_o [get_bd_pins HDMI_top_0/red_data] [get_bd_pins data_gen_0/data_r_o]
+  connect_bd_net -net ov5640_cfg_top_0_sccb_cfg_done [get_bd_ports sccb_cfg_done_0] [get_bd_pins ov5640_cfg_top_0/sccb_cfg_done]
   connect_bd_net -net ov5640_cfg_top_0_sccb_clk [get_bd_ports sccb_clk_0] [get_bd_pins ov5640_cfg_top_0/sccb_clk]
   connect_bd_net -net processing_system7_0_FCLK_CLK0 [get_bd_pins axi_mem_intercon/ACLK] [get_bd_pins axi_mem_intercon/M00_ACLK] [get_bd_pins axi_mem_intercon/S00_ACLK] [get_bd_pins axi_mem_intercon/S01_ACLK] [get_bd_pins axi_vdma_0/m_axi_mm2s_aclk] [get_bd_pins axi_vdma_0/m_axi_s2mm_aclk] [get_bd_pins axi_vdma_0/m_axis_mm2s_aclk] [get_bd_pins axi_vdma_0/s_axi_lite_aclk] [get_bd_pins axi_vdma_0/s_axis_s2mm_aclk] [get_bd_pins processing_system7_0/FCLK_CLK0] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK] [get_bd_pins processing_system7_0/S_AXI_HP0_ACLK] [get_bd_pins ps7_0_axi_periph/ACLK] [get_bd_pins ps7_0_axi_periph/M00_ACLK] [get_bd_pins ps7_0_axi_periph/S00_ACLK] [get_bd_pins rst_ps7_0_200M/slowest_sync_clk] [get_bd_pins v_axi4s_vid_out_0/aclk] [get_bd_pins v_vid_in_axi4s_0/aclk]
   connect_bd_net -net processing_system7_0_FCLK_RESET0_N [get_bd_pins processing_system7_0/FCLK_RESET0_N] [get_bd_pins rst_ps7_0_200M/ext_reset_in]
   connect_bd_net -net rst_ps7_0_200M_peripheral_aresetn [get_bd_pins axi_mem_intercon/ARESETN] [get_bd_pins axi_mem_intercon/M00_ARESETN] [get_bd_pins axi_mem_intercon/S00_ARESETN] [get_bd_pins axi_mem_intercon/S01_ARESETN] [get_bd_pins axi_vdma_0/axi_resetn] [get_bd_pins ps7_0_axi_periph/ARESETN] [get_bd_pins ps7_0_axi_periph/M00_ARESETN] [get_bd_pins ps7_0_axi_periph/S00_ARESETN] [get_bd_pins rst_ps7_0_200M/peripheral_aresetn] [get_bd_pins v_axi4s_vid_out_0/aresetn]
   connect_bd_net -net sys_rst_n_0_1 [get_bd_ports sys_rst_n_0] [get_bd_pins clk_wiz_0/resetn]
   connect_bd_net -net util_vector_logic_0_Res [get_bd_pins util_vector_logic_0/Res] [get_bd_pins v_axi4s_vid_out_0/vid_io_out_reset]
-  connect_bd_net -net util_vector_logic_1_Res [get_bd_pins util_vector_logic_1/Res] [get_bd_pins v_vid_in_axi4s_0/vid_io_in_ce]
   connect_bd_net -net v_axi4s_vid_out_0_vid_active_video [get_bd_pins HDMI_top_0/de] [get_bd_pins data_gen_0/de] [get_bd_pins v_axi4s_vid_out_0/vid_active_video]
   connect_bd_net -net v_axi4s_vid_out_0_vid_data [get_bd_pins data_gen_0/data_i] [get_bd_pins v_axi4s_vid_out_0/vid_data]
   connect_bd_net -net v_axi4s_vid_out_0_vid_hsync [get_bd_pins HDMI_top_0/h_sync] [get_bd_pins v_axi4s_vid_out_0/vid_hsync]

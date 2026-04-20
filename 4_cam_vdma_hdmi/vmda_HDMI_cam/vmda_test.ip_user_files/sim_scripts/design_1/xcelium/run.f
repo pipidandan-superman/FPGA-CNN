@@ -30,7 +30,6 @@
   "../../../bd/design_1/ip/design_1_HDMI_top_0_0/sim/design_1_HDMI_top_0_0.v" \
   "../../../bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v" \
   "../../../bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v" \
-  "../../../bd/design_1/sim/design_1.v" \
 -endlib
 -makelib xcelium_lib/util_vector_logic_v2_0_1 \
   "../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/3f90/hdl/util_vector_logic_v2_0_vl_rfs.v" \
@@ -119,28 +118,28 @@
 -makelib xcelium_lib/generic_baseblocks_v2_1_0 \
   "../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v" \
 -endlib
--makelib xcelium_lib/axi_data_fifo_v2_1_21 \
-  "../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/54c0/hdl/axi_data_fifo_v2_1_vl_rfs.v" \
--endlib
 -makelib xcelium_lib/axi_register_slice_v2_1_22 \
   "../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/af2c/hdl/axi_register_slice_v2_1_vl_rfs.v" \
 -endlib
--makelib xcelium_lib/axi_protocol_converter_v2_1_22 \
-  "../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/5cee/hdl/axi_protocol_converter_v2_1_vl_rfs.v" \
--endlib
--makelib xcelium_lib/xil_defaultlib \
-  "../../../bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
+-makelib xcelium_lib/axi_data_fifo_v2_1_21 \
+  "../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/54c0/hdl/axi_data_fifo_v2_1_vl_rfs.v" \
 -endlib
 -makelib xcelium_lib/axi_crossbar_v2_1_23 \
   "../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/bc0a/hdl/axi_crossbar_v2_1_vl_rfs.v" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/design_1/ip/design_1_xbar_0/sim/design_1_xbar_0.v" \
-  "../../../bd/design_1/ip/design_1_auto_pc_1/sim/design_1_auto_pc_1.v" \
   "../../../bd/design_1/ip/design_1_v_vid_in_axi4s_0_0/sim/design_1_v_vid_in_axi4s_0_0.v" \
   "../../../bd/design_1/ip/design_1_ov5640_cfg_top_0_0/sim/design_1_ov5640_cfg_top_0_0.v" \
   "../../../bd/design_1/ip/design_1_cam_captrue_data_0_0/sim/design_1_cam_captrue_data_0_0.v" \
-  "../../../bd/design_1/ip/design_1_util_vector_logic_0_1/sim/design_1_util_vector_logic_0_1.v" \
+  "../../../bd/design_1/sim/design_1.v" \
+-endlib
+-makelib xcelium_lib/axi_protocol_converter_v2_1_22 \
+  "../../../../vmda_test.srcs/sources_1/bd/design_1/ipshared/5cee/hdl/axi_protocol_converter_v2_1_vl_rfs.v" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib \
+  "../../../bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
+  "../../../bd/design_1/ip/design_1_auto_pc_1/sim/design_1_auto_pc_1.v" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   glbl.v

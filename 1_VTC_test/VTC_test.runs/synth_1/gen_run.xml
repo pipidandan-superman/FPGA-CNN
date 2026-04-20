@@ -94,8 +94,8 @@
     <Step Id="synth_design"/>
   </Strategy>
   <BlockFileSet Type="BlockSrcs" Name="design_1_v_tc_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_HDMI_top_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_vio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_HDMI_top_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_clk_wiz_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_data_gen_0_0"/>
 </GenRun>

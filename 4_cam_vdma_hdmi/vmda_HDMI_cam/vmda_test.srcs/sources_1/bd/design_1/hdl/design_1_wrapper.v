@@ -1,7 +1,7 @@
 //Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-//Date        : Sun Apr 19 11:52:49 2026
+//Date        : Sun Apr 19 18:26:55 2026
 //Host        : HC-202510241838 running 64-bit major release  (build 9200)
 //Command     : generate_target design_1_wrapper.bd
 //Design      : design_1_wrapper
@@ -42,6 +42,7 @@ module design_1_wrapper
     cam_xclk_0,
     clk_in1_0,
     hdmi_en_0,
+    sccb_cfg_done_0,
     sccb_clk_0,
     sccb_data_0,
     sys_rst_n_0);
@@ -77,6 +78,7 @@ module design_1_wrapper
   output cam_xclk_0;
   input clk_in1_0;
   output hdmi_en_0;
+  output sccb_cfg_done_0;
   output sccb_clk_0;
   inout sccb_data_0;
   input sys_rst_n_0;
@@ -113,6 +115,7 @@ module design_1_wrapper
   wire cam_xclk_0;
   wire clk_in1_0;
   wire hdmi_en_0;
+  wire sccb_cfg_done_0;
   wire sccb_clk_0;
   wire sccb_data_0;
   wire sys_rst_n_0;
@@ -150,6 +153,7 @@ module design_1_wrapper
         .cam_xclk_0(cam_xclk_0),
         .clk_in1_0(clk_in1_0),
         .hdmi_en_0(hdmi_en_0),
+        .sccb_cfg_done_0(sccb_cfg_done_0),
         .sccb_clk_0(sccb_clk_0),
         .sccb_data_0(sccb_data_0),
         .sys_rst_n_0(sys_rst_n_0));
