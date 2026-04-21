@@ -24,7 +24,9 @@ begin
 	4:       REG_DATA<=24'h3017ff;   // FREX, Vsync, HREF, PCLK, D[9:6] output enable
 	5:       REG_DATA<=24'h3018ff;   // D[5:0], GPIO[1:0] output enable
 	6:       REG_DATA<=24'h30341a;   // MIPI 10-bit
-	7:       REG_DATA<=24'h303713;   // PLL root divider, bit[4], PLL pre-divider, bit[3:0]
+	//7:       REG_DATA<=24'h303713;   // PLL root divider, bit[4], PLL pre-divider, bit[3:0]
+	7:       REG_DATA<=24'h303711;
+// PLL root divider=/2 (bit[4]=1), PLL pre-divider=/1 (bit[3:0]=1)
 	8:       REG_DATA<=24'h310801;   // PCLK root divider, bit[5:4], SCLK2x root divider, bit[3:2]
 	// SCLK root divider, bit[1:0]
 	9:       REG_DATA<=24'h363036;  
@@ -233,10 +235,18 @@ begin
 	205:     REG_DATA<=24'h530c06;   // CIP sharpen TH offset 2
 	206:     REG_DATA<=24'h502500;  
 	207:     REG_DATA<=24'h300802;   // wake up from standby, bit[6]
+	/*
 	// YUV VGA 30fps, night mode 5fps
 	// Input Clock = 24Mhz, PCLK = 56MHz
-	208:     REG_DATA<=24'h303541;   // PLL
-	209:     REG_DATA<=24'h303669;   // PLL
+	//208:     REG_DATA<=24'h303541;   // PLL
+	//209:     REG_DATA<=24'h303669;   // PLL
+	*/
+	// Input Clock = 25Mhz, PCLK = 50MHz
+	208:     REG_DATA<=24'h303541;
+// Sys clock divider=/4 (bit[7:4]=4)
+	209:     REG_DATA<=24'h303620;   // PLL multiplier = 32 (0x20)
+	
+	
 	210:     REG_DATA<=24'h3c0707;   // light meter 1 threshold [7:0]
 	211:     REG_DATA<=24'h382040;   // Sensor flip off, ISP flip on
 	212:     REG_DATA<=24'h382101;   // Sensor mirror on, ISP mirror on, H binning on
