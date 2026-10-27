@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;vdma_ctrl/src/main_vdma_read.c.bak&apos;" deleteContents="false" description="Delete resource &apos;vdma_ctrl/src/main_vdma_read.c.bak&apos;" element1="/vdma_ctrl/src/main_vdma_read.c.bak" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1777867518906"/>
+</session>

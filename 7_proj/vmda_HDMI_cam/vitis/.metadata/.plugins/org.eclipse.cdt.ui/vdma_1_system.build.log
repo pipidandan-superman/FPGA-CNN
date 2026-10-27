@@ -1,0 +1,10 @@
+17:44:19 **** Build of configuration Debug for project vdma_1_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 61467 E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm standalone_ps7_cortexa9_0 E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_1_system/Debug/system.bif
+sdcard_gen --xpfm E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm --sys_config design_1_wrapper --bif E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_1_system/Debug/system.bif --bitstream E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_1/_ide/bitstream/design_1_wrapper.bit --elf E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_1/Debug/vdma_1.elf,ps7_cortexa9_0
+ELF does not exist: E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_1/Debug/vdma_1.elf
+make: *** [makefile:39: package] Error 1
+
+17:44:21 Build Finished (took 2s.52ms)
+

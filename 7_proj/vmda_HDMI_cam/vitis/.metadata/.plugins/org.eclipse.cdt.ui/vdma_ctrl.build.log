@@ -1,0 +1,44 @@
+22:47:44 **** Incremental Build of configuration Debug for project vdma_ctrl ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/cam_vdma_hdmi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cam_vdma_hdmi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/cam_vdma_hdmi.d" -MT"src/cam_vdma_hdmi.o" -o "src/cam_vdma_hdmi.o" "../src/cam_vdma_hdmi.c"
+../src/cam_vdma_hdmi.c: In function 'main':
+../src/cam_vdma_hdmi.c:146:28: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  146 |     printf("BRAM[0] = 0x%08X\n", test_data);
+      |                         ~~~^     ~~~~~~~~~
+      |                            |     |
+      |                            |     u32 {aka long unsigned int}
+      |                            unsigned int
+      |                         %08lX
+../src/cam_vdma_hdmi.c:159:35: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  159 |         printf("  BRAM[%d] = 0x%08X (fixed=%d)\n", i, raw, fixed);
+      |                                ~~~^                   ~~~
+      |                                   |                   |
+      |                                   unsigned int        u32 {aka long unsigned int}
+      |                                %08lX
+'Finished building: ../src/cam_vdma_hdmi.c'
+' '
+'Building file: ../src/cnn_inference.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/cnn_inference.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/cnn_inference.d" -MT"src/cnn_inference.o" -o "src/cnn_inference.o" "../src/cnn_inference.c"
+'Finished building: ../src/cnn_inference.c'
+' '
+'Building target: vdma_ctrl.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "vdma_ctrl.elf"  ./src/cam_vdma_hdmi.o ./src/cnn_inference.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+'Finished building target: vdma_ctrl.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size vdma_ctrl.elf  |tee "vdma_ctrl.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+1797064	   3324	 187840	1988228	 1e5684	vdma_ctrl.elf
+'Finished building: vdma_ctrl.elf.size'
+' '
+
+22:47:45 Build Finished (took 1s.308ms)
+
