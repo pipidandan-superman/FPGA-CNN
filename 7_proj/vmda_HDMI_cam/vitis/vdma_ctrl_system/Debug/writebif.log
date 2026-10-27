@@ -1,0 +1,756 @@
+TRACE::2026-04-06.15:58:59::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-06.15:58:59::SCWBifWriter::hardware databse : design_1_wrapper_7
+TRACE::2026-04-06.15:58:59::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-06.15:58:59::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-06.15:58:59::SCWBifWriter::proc type : 
+TRACE::2026-04-06.15:58:59::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-06.15:58:59::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-06.15:58:59::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-06.15:58:59::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-07.09:11:25::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-07.09:11:25::SCWBifWriter::hardware databse : design_1_wrapper_7
+TRACE::2026-04-07.09:11:25::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-07.09:11:25::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-07.09:11:25::SCWBifWriter::proc type : 
+TRACE::2026-04-07.09:11:25::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-07.09:11:25::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-07.09:11:25::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-07.09:11:25::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-07.09:30:54::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-07.09:30:54::SCWBifWriter::hardware databse : design_1_wrapper_7
+TRACE::2026-04-07.09:30:54::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-07.09:30:54::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-07.09:30:54::SCWBifWriter::proc type : 
+TRACE::2026-04-07.09:30:54::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-07.09:30:54::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-07.09:30:54::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-07.09:30:54::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-07.09:44:51::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-07.09:44:51::SCWBifWriter::hardware databse : design_1_wrapper_13
+TRACE::2026-04-07.09:44:51::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-07.09:44:51::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-07.09:44:51::SCWBifWriter::proc type : 
+TRACE::2026-04-07.09:44:51::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-07.09:44:51::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-07.09:44:51::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-07.09:44:51::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-07.10:04:24::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-07.10:04:24::SCWBifWriter::hardware databse : design_1_wrapper_13
+TRACE::2026-04-07.10:04:24::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-07.10:04:24::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-07.10:04:24::SCWBifWriter::proc type : 
+TRACE::2026-04-07.10:04:24::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-07.10:04:24::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-07.10:04:24::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-07.10:04:24::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-07.10:11:35::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-07.10:11:35::SCWBifWriter::hardware databse : design_1_wrapper_13
+TRACE::2026-04-07.10:11:35::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-07.10:11:35::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-07.10:11:35::SCWBifWriter::proc type : 
+TRACE::2026-04-07.10:11:35::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-07.10:11:35::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-07.10:11:35::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-07.10:11:35::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-07.10:22:48::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-07.10:22:48::SCWBifWriter::hardware databse : design_1_wrapper_13
+TRACE::2026-04-07.10:22:48::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-07.10:22:48::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-07.10:22:48::SCWBifWriter::proc type : 
+TRACE::2026-04-07.10:22:48::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-07.10:22:48::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-07.10:22:48::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/proj/vmda_test/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-07.10:22:48::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-19.13:13:44::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-19.13:13:44::SCWBifWriter::hardware databse : design_1_wrapper_7
+TRACE::2026-04-19.13:13:44::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-19.13:13:44::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-19.13:13:44::SCWBifWriter::proc type : 
+TRACE::2026-04-19.13:13:44::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-19.13:13:44::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-19.13:13:44::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-19.13:13:44::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-19.13:59:30::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-19.13:59:30::SCWBifWriter::hardware databse : design_1_wrapper_7
+TRACE::2026-04-19.13:59:30::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-19.13:59:30::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-19.13:59:30::SCWBifWriter::proc type : 
+TRACE::2026-04-19.13:59:30::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-19.13:59:30::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-19.13:59:30::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-19.13:59:30::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-19.16:24:45::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-19.16:24:45::SCWBifWriter::hardware databse : design_1_wrapper_7
+TRACE::2026-04-19.16:24:45::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-19.16:24:45::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-19.16:24:45::SCWBifWriter::proc type : 
+TRACE::2026-04-19.16:24:45::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-19.16:24:45::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-19.16:24:45::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-19.16:24:45::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-19.16:46:01::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-19.16:46:01::SCWBifWriter::hardware databse : design_1_wrapper_12
+TRACE::2026-04-19.16:46:01::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-19.16:46:01::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-19.16:46:01::SCWBifWriter::proc type : 
+TRACE::2026-04-19.16:46:01::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-19.16:46:01::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-19.16:46:01::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-19.16:46:01::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-19.16:47:20::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-19.16:47:20::SCWBifWriter::hardware databse : design_1_wrapper_12
+TRACE::2026-04-19.16:47:20::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-19.16:47:20::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-19.16:47:20::SCWBifWriter::proc type : 
+TRACE::2026-04-19.16:47:20::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-19.16:47:20::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-19.16:47:20::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-19.16:47:20::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-19.16:52:56::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-19.16:52:56::SCWBifWriter::hardware databse : design_1_wrapper_12
+TRACE::2026-04-19.16:52:56::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-19.16:52:56::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-19.16:52:56::SCWBifWriter::proc type : 
+TRACE::2026-04-19.16:52:56::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-19.16:52:56::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-19.16:52:56::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-19.16:52:56::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-19.16:56:24::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-19.16:56:24::SCWBifWriter::hardware databse : design_1_wrapper_12
+TRACE::2026-04-19.16:56:24::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-19.16:56:24::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-19.16:56:24::SCWBifWriter::proc type : 
+TRACE::2026-04-19.16:56:24::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-19.16:56:24::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-19.16:56:24::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-19.16:56:24::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-19.17:26:29::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-19.17:26:29::SCWBifWriter::hardware databse : design_1_wrapper_17
+TRACE::2026-04-19.17:26:29::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-19.17:26:29::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-19.17:26:29::SCWBifWriter::proc type : 
+TRACE::2026-04-19.17:26:29::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-19.17:26:29::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-19.17:26:29::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-19.17:26:29::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-19.17:37:47::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-19.17:37:47::SCWBifWriter::hardware databse : design_1_wrapper_22
+TRACE::2026-04-19.17:37:47::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-19.17:37:47::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-19.17:37:47::SCWBifWriter::proc type : 
+TRACE::2026-04-19.17:37:47::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-19.17:37:47::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-19.17:37:47::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-19.17:37:47::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-21.11:20:17::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-21.11:20:17::SCWBifWriter::hardware databse : design_1_wrapper_7
+TRACE::2026-04-21.11:20:17::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-21.11:20:17::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-21.11:20:17::SCWBifWriter::proc type : 
+TRACE::2026-04-21.11:20:17::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-21.11:20:17::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-21.11:20:17::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-21.11:20:17::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-21.11:21:56::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-21.11:21:56::SCWBifWriter::hardware databse : design_1_wrapper_7
+TRACE::2026-04-21.11:21:56::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-21.11:21:56::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-21.11:21:56::SCWBifWriter::proc type : 
+TRACE::2026-04-21.11:21:56::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-21.11:21:56::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-21.11:21:56::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-21.11:21:56::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-21.11:23:32::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-21.11:23:32::SCWBifWriter::hardware databse : design_1_wrapper_7
+TRACE::2026-04-21.11:23:32::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-21.11:23:32::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-21.11:23:32::SCWBifWriter::proc type : 
+TRACE::2026-04-21.11:23:32::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-21.11:23:32::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-21.11:23:32::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-21.11:23:32::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-21.21:42:19::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-21.21:42:19::SCWBifWriter::hardware databse : design_1_wrapper_7
+TRACE::2026-04-21.21:42:19::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-21.21:42:19::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-21.21:42:19::SCWBifWriter::proc type : 
+TRACE::2026-04-21.21:42:19::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-21.21:42:19::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-21.21:42:19::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/proj/4_cam_vdma_hdmi/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-21.21:42:19::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-24.22:23:57::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-24.22:23:57::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2026-04-24.22:23:57::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-24.22:23:57::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-24.22:23:57::SCWBifWriter::proc type : 
+TRACE::2026-04-24.22:23:57::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-24.22:23:57::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-24.22:23:57::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-24.22:23:57::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-24.23:09:40::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-24.23:09:40::SCWBifWriter::hardware databse : design_1_wrapper_4
+TRACE::2026-04-24.23:09:40::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-24.23:09:40::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-24.23:09:40::SCWBifWriter::proc type : 
+TRACE::2026-04-24.23:09:40::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-24.23:09:40::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-24.23:09:40::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-24.23:09:40::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-24.23:09:54::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-24.23:09:54::SCWBifWriter::hardware databse : design_1_wrapper_4
+TRACE::2026-04-24.23:09:54::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-24.23:09:54::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-24.23:09:54::SCWBifWriter::proc type : 
+TRACE::2026-04-24.23:09:54::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-24.23:09:54::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-24.23:09:54::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-24.23:09:54::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-26.13:09:59::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-26.13:09:59::SCWBifWriter::hardware databse : design_1_wrapper_4
+TRACE::2026-04-26.13:09:59::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-26.13:09:59::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-26.13:09:59::SCWBifWriter::proc type : 
+TRACE::2026-04-26.13:09:59::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-26.13:09:59::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-26.13:09:59::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-26.13:09:59::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-26.13:11:15::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-26.13:11:15::SCWBifWriter::hardware databse : design_1_wrapper_4
+TRACE::2026-04-26.13:11:15::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-26.13:11:15::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-26.13:11:15::SCWBifWriter::proc type : 
+TRACE::2026-04-26.13:11:15::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-26.13:11:15::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-26.13:11:15::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-26.13:11:15::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-26.13:27:36::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-26.13:27:36::SCWBifWriter::hardware databse : design_1_wrapper_9
+TRACE::2026-04-26.13:27:36::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-26.13:27:36::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-26.13:27:36::SCWBifWriter::proc type : 
+TRACE::2026-04-26.13:27:36::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-26.13:27:36::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-26.13:27:36::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-26.13:27:36::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-26.14:20:44::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-26.14:20:44::SCWBifWriter::hardware databse : design_1_wrapper_14
+TRACE::2026-04-26.14:20:44::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-26.14:20:44::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-26.14:20:44::SCWBifWriter::proc type : 
+TRACE::2026-04-26.14:20:44::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-26.14:20:44::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-26.14:20:44::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-26.14:20:44::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-26.14:37:04::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-26.14:37:04::SCWBifWriter::hardware databse : design_1_wrapper_19
+TRACE::2026-04-26.14:37:04::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-26.14:37:04::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-26.14:37:04::SCWBifWriter::proc type : 
+TRACE::2026-04-26.14:37:04::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-26.14:37:04::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-26.14:37:04::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-26.14:37:04::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-26.14:37:42::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-26.14:37:42::SCWBifWriter::hardware databse : design_1_wrapper_19
+TRACE::2026-04-26.14:37:42::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-26.14:37:42::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-26.14:37:42::SCWBifWriter::proc type : 
+TRACE::2026-04-26.14:37:42::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-26.14:37:42::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-26.14:37:42::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-26.14:37:42::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-26.14:38:08::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-26.14:38:08::SCWBifWriter::hardware databse : design_1_wrapper_19
+TRACE::2026-04-26.14:38:08::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-26.14:38:08::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-26.14:38:08::SCWBifWriter::proc type : 
+TRACE::2026-04-26.14:38:08::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-26.14:38:08::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-26.14:38:08::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-26.14:38:08::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-26.15:07:44::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-26.15:07:44::SCWBifWriter::hardware databse : design_1_wrapper_24
+TRACE::2026-04-26.15:07:44::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-26.15:07:44::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-26.15:07:44::SCWBifWriter::proc type : 
+TRACE::2026-04-26.15:07:44::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-26.15:07:44::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-26.15:07:44::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-26.15:07:44::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-26.15:13:13::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-26.15:13:13::SCWBifWriter::hardware databse : design_1_wrapper_24
+TRACE::2026-04-26.15:13:13::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-26.15:13:13::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-26.15:13:13::SCWBifWriter::proc type : 
+TRACE::2026-04-26.15:13:13::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-26.15:13:13::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-26.15:13:13::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-26.15:13:13::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-27.15:31:03::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-27.15:31:03::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2026-04-27.15:31:03::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-27.15:31:03::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-27.15:31:03::SCWBifWriter::proc type : 
+TRACE::2026-04-27.15:31:03::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-27.15:31:03::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-27.15:31:03::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-27.15:31:03::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-27.15:31:35::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-27.15:31:35::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2026-04-27.15:31:35::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-27.15:31:35::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-27.15:31:35::SCWBifWriter::proc type : 
+TRACE::2026-04-27.15:31:35::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-27.15:31:35::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-27.15:31:35::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-27.15:31:35::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-27.15:49:17::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-27.15:49:17::SCWBifWriter::hardware databse : design_1_wrapper_8
+TRACE::2026-04-27.15:49:17::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-27.15:49:17::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-27.15:49:17::SCWBifWriter::proc type : 
+TRACE::2026-04-27.15:49:17::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-27.15:49:17::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-27.15:49:17::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-27.15:49:17::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-27.17:20:46::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-27.17:20:46::SCWBifWriter::hardware databse : design_1_wrapper_4
+TRACE::2026-04-27.17:20:46::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-27.17:20:46::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-27.17:20:46::SCWBifWriter::proc type : 
+TRACE::2026-04-27.17:20:46::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-27.17:20:46::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-27.17:20:46::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-27.17:20:46::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-27.17:33:38::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-27.17:33:38::SCWBifWriter::hardware databse : design_1_wrapper_9
+TRACE::2026-04-27.17:33:38::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-27.17:33:38::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-27.17:33:38::SCWBifWriter::proc type : 
+TRACE::2026-04-27.17:33:38::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-27.17:33:38::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-27.17:33:38::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-27.17:33:38::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-27.17:44:48::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-27.17:44:48::SCWBifWriter::hardware databse : design_1_wrapper_14
+TRACE::2026-04-27.17:44:48::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-27.17:44:48::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-27.17:44:48::SCWBifWriter::proc type : 
+TRACE::2026-04-27.17:44:48::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-27.17:44:48::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-27.17:44:48::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-27.17:44:48::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-27.17:53:06::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-27.17:53:06::SCWBifWriter::hardware databse : design_1_wrapper_20
+TRACE::2026-04-27.17:53:06::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-27.17:53:06::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-27.17:53:06::SCWBifWriter::proc type : 
+TRACE::2026-04-27.17:53:06::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-27.17:53:06::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-27.17:53:06::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-27.17:53:06::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-27.18:05:03::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-27.18:05:03::SCWBifWriter::hardware databse : design_1_wrapper_25
+TRACE::2026-04-27.18:05:03::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-27.18:05:03::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-27.18:05:03::SCWBifWriter::proc type : 
+TRACE::2026-04-27.18:05:03::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-27.18:05:03::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-27.18:05:03::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-27.18:05:03::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-27.18:17:38::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-27.18:17:38::SCWBifWriter::hardware databse : design_1_wrapper_30
+TRACE::2026-04-27.18:17:38::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-27.18:17:38::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-27.18:17:38::SCWBifWriter::proc type : 
+TRACE::2026-04-27.18:17:38::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-27.18:17:38::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-27.18:17:38::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_debug1/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-27.18:17:38::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-27.18:45:21::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_true_gray/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-27.18:45:21::SCWBifWriter::hardware databse : design_1_wrapper_4
+TRACE::2026-04-27.18:45:21::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-27.18:45:21::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-27.18:45:21::SCWBifWriter::proc type : 
+TRACE::2026-04-27.18:45:21::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-27.18:45:21::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-27.18:45:21::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_true_gray/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-27.18:45:21::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-27.18:57:26::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/4_cam_vdma_hdmi_true_gray/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-27.18:57:26::SCWBifWriter::hardware databse : design_1_wrapper_4
+TRACE::2026-04-27.18:57:26::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-27.18:57:26::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-27.18:57:26::SCWBifWriter::proc type : 
+TRACE::2026-04-27.18:57:26::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-27.18:57:26::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-27.18:57:26::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/4_cam_vdma_hdmi_true_gray/4_cam_vdma_hdmi_debug1/4_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-27.18:57:26::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-27.19:12:24::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/7_cam_vdma_hdmi_true_gray/7_cam_vdma_hdmi_debug1/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-27.19:12:24::SCWBifWriter::hardware databse : design_1_wrapper_4
+TRACE::2026-04-27.19:12:24::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-27.19:12:24::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-27.19:12:24::SCWBifWriter::proc type : 
+TRACE::2026-04-27.19:12:24::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-27.19:12:24::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-27.19:12:24::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/7_cam_vdma_hdmi_true_gray/7_cam_vdma_hdmi_debug1/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-27.19:12:24::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-27.19:34:49::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/7_cam_vdma_hdmi_true_gray/7_cam_vdma_hdmi_debug1/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-27.19:34:49::SCWBifWriter::hardware databse : design_1_wrapper_9
+TRACE::2026-04-27.19:34:49::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-27.19:34:49::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-27.19:34:49::SCWBifWriter::proc type : 
+TRACE::2026-04-27.19:34:49::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-27.19:34:49::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-27.19:34:49::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/7_cam_vdma_hdmi_true_gray/7_cam_vdma_hdmi_debug1/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-27.19:34:49::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-27.19:53:17::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/7_cam_vdma_hdmi_true_gray/7_cam_vdma_hdmi_debug1/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-27.19:53:18::SCWBifWriter::hardware databse : design_1_wrapper_14
+TRACE::2026-04-27.19:53:18::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-27.19:53:18::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-27.19:53:18::SCWBifWriter::proc type : 
+TRACE::2026-04-27.19:53:18::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-27.19:53:18::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-27.19:53:18::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/7_cam_vdma_hdmi_true_gray/7_cam_vdma_hdmi_debug1/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-27.19:53:18::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-29.09:46:40::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/7_cam_vdma_hdmi_true_gray/7_cam_vdma_hdmi_debug1/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-29.09:46:40::SCWBifWriter::hardware databse : design_1_wrapper_5
+TRACE::2026-04-29.09:46:40::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-29.09:46:40::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-29.09:46:40::SCWBifWriter::proc type : 
+TRACE::2026-04-29.09:46:40::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-29.09:46:40::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-29.09:46:40::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/7_cam_vdma_hdmi_true_gray/7_cam_vdma_hdmi_debug1/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-29.09:46:40::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-29.10:06:04::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/7_cam_vdma_hdmi_true_gray/7_cam_vdma_hdmi_debug1/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-29.10:06:04::SCWBifWriter::hardware databse : design_1_wrapper_10
+TRACE::2026-04-29.10:06:04::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-29.10:06:04::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-29.10:06:04::SCWBifWriter::proc type : 
+TRACE::2026-04-29.10:06:04::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-29.10:06:04::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-29.10:06:04::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/7_cam_vdma_hdmi_true_gray/7_cam_vdma_hdmi_debug1/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-29.10:06:04::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-29.10:15:06::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/7_cam_vdma_hdmi_true_gray/7_cam_vdma_hdmi_debug1/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-29.10:15:06::SCWBifWriter::hardware databse : design_1_wrapper_15
+TRACE::2026-04-29.10:15:06::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-29.10:15:06::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-29.10:15:06::SCWBifWriter::proc type : 
+TRACE::2026-04-29.10:15:06::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-29.10:15:06::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-29.10:15:06::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/7_cam_vdma_hdmi_true_gray/7_cam_vdma_hdmi_debug1/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-29.10:15:06::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-04-29.10:25:16::SCWBifWriter::Found the complete platform E:/FPGA_PROJ/my/7_cam_vdma_hdmi_true_gray/7_cam_vdma_hdmi_debug1/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-04-29.10:25:16::SCWBifWriter::hardware databse : design_1_wrapper_20
+TRACE::2026-04-29.10:25:16::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-29.10:25:16::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-29.10:25:16::SCWBifWriter::proc type : 
+TRACE::2026-04-29.10:25:16::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-29.10:25:16::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-29.10:25:16::SCWBifWriter::Writing BIF to file : E:/FPGA_PROJ/my/7_cam_vdma_hdmi_true_gray/7_cam_vdma_hdmi_debug1/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-04-29.10:25:16::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-02.09:17:49::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/7_cam_vdma_hdmi_debug1/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-02.09:17:49::SCWBifWriter::hardware databse : design_1_wrapper_4
+TRACE::2026-05-02.09:17:49::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-02.09:17:49::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-02.09:17:49::SCWBifWriter::proc type : 
+TRACE::2026-05-02.09:17:49::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-02.09:17:49::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-02.09:17:49::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/7_cam_vdma_hdmi_debug1/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-02.09:17:49::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-02.09:30:34::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/7_cam_vdma_hdmi_debug1/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-02.09:30:34::SCWBifWriter::hardware databse : design_1_wrapper_4
+TRACE::2026-05-02.09:30:34::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-02.09:30:34::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-02.09:30:34::SCWBifWriter::proc type : 
+TRACE::2026-05-02.09:30:34::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-02.09:30:34::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-02.09:30:34::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/7_cam_vdma_hdmi_debug1/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-02.09:30:34::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-02.09:45:49::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/7_cam_vdma_hdmi_debug1/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-02.09:45:49::SCWBifWriter::hardware databse : design_1_wrapper_9
+TRACE::2026-05-02.09:45:49::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-02.09:45:49::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-02.09:45:49::SCWBifWriter::proc type : 
+TRACE::2026-05-02.09:45:49::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-02.09:45:49::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-02.09:45:49::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/7_cam_vdma_hdmi_debug1/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-02.09:45:49::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-02.09:53:17::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/7_cam_vdma_hdmi_debug1/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-02.09:53:17::SCWBifWriter::hardware databse : design_1_wrapper_14
+TRACE::2026-05-02.09:53:17::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-02.09:53:17::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-02.09:53:17::SCWBifWriter::proc type : 
+TRACE::2026-05-02.09:53:17::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-02.09:53:17::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-02.09:53:17::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/7_cam_vdma_hdmi_debug1/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-02.09:53:17::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-02.13:59:21::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-02.13:59:22::SCWBifWriter::hardware databse : design_1_wrapper_4
+TRACE::2026-05-02.13:59:22::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-02.13:59:22::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-02.13:59:22::SCWBifWriter::proc type : 
+TRACE::2026-05-02.13:59:22::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-02.13:59:22::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-02.13:59:22::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-02.13:59:22::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-02.15:06:54::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-02.15:06:54::SCWBifWriter::hardware databse : design_1_wrapper_7
+TRACE::2026-05-02.15:06:54::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-02.15:06:54::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-02.15:06:54::SCWBifWriter::proc type : 
+TRACE::2026-05-02.15:06:54::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-02.15:06:54::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-02.15:06:54::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-02.15:06:54::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-02.15:41:14::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-02.15:41:14::SCWBifWriter::hardware databse : design_1_wrapper_12
+TRACE::2026-05-02.15:41:14::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-02.15:41:14::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-02.15:41:14::SCWBifWriter::proc type : 
+TRACE::2026-05-02.15:41:14::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-02.15:41:14::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-02.15:41:14::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-02.15:41:14::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-02.15:51:46::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-02.15:51:46::SCWBifWriter::hardware databse : design_1_wrapper_12
+TRACE::2026-05-02.15:51:46::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-02.15:51:46::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-02.15:51:46::SCWBifWriter::proc type : 
+TRACE::2026-05-02.15:51:46::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-02.15:51:46::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-02.15:51:46::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-02.15:51:46::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-03.11:29:41::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-03.11:29:41::SCWBifWriter::hardware databse : design_1_wrapper_4
+TRACE::2026-05-03.11:29:41::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-03.11:29:41::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-03.11:29:41::SCWBifWriter::proc type : 
+TRACE::2026-05-03.11:29:41::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-03.11:29:41::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-03.11:29:41::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-03.11:29:41::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-03.12:22:52::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-03.12:22:52::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2026-05-03.12:22:52::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-03.12:22:52::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-03.12:22:52::SCWBifWriter::proc type : 
+TRACE::2026-05-03.12:22:52::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-03.12:22:52::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-03.12:22:52::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-03.12:22:52::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-03.12:33:23::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-03.12:33:23::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2026-05-03.12:33:23::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-03.12:33:23::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-03.12:33:23::SCWBifWriter::proc type : 
+TRACE::2026-05-03.12:33:23::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-03.12:33:23::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-03.12:33:23::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-03.12:33:23::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-03.12:56:10::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-03.12:56:10::SCWBifWriter::hardware databse : design_1_wrapper_8
+TRACE::2026-05-03.12:56:10::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-03.12:56:10::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-03.12:56:10::SCWBifWriter::proc type : 
+TRACE::2026-05-03.12:56:10::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-03.12:56:10::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-03.12:56:10::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-03.12:56:10::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-03.13:17:16::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-03.13:17:16::SCWBifWriter::hardware databse : design_1_wrapper_13
+TRACE::2026-05-03.13:17:16::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-03.13:17:16::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-03.13:17:16::SCWBifWriter::proc type : 
+TRACE::2026-05-03.13:17:16::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-03.13:17:16::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-03.13:17:16::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-03.13:17:16::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-03.16:42:36::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-03.16:42:36::SCWBifWriter::hardware databse : design_1_wrapper_18
+TRACE::2026-05-03.16:42:36::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-03.16:42:36::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-03.16:42:36::SCWBifWriter::proc type : 
+TRACE::2026-05-03.16:42:36::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-03.16:42:36::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-03.16:42:36::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-03.16:42:36::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-03.17:09:55::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-03.17:09:55::SCWBifWriter::hardware databse : design_1_wrapper_23
+TRACE::2026-05-03.17:09:55::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-03.17:09:55::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-03.17:09:55::SCWBifWriter::proc type : 
+TRACE::2026-05-03.17:09:55::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-03.17:09:55::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-03.17:09:55::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-03.17:09:55::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-03.17:16:25::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-03.17:16:25::SCWBifWriter::hardware databse : design_1_wrapper_23
+TRACE::2026-05-03.17:16:25::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-03.17:16:25::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-03.17:16:25::SCWBifWriter::proc type : 
+TRACE::2026-05-03.17:16:25::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-03.17:16:25::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-03.17:16:25::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-03.17:16:25::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-03.21:42:44::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-03.21:42:44::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2026-05-03.21:42:44::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-03.21:42:44::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-03.21:42:44::SCWBifWriter::proc type : 
+TRACE::2026-05-03.21:42:44::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-03.21:42:44::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-03.21:42:44::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-03.21:42:44::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-03.21:53:47::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-03.21:53:47::SCWBifWriter::hardware databse : design_1_wrapper_4
+TRACE::2026-05-03.21:53:47::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-03.21:53:47::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-03.21:53:47::SCWBifWriter::proc type : 
+TRACE::2026-05-03.21:53:47::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-03.21:53:47::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-03.21:53:47::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-03.21:53:47::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-03.21:59:47::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-03.21:59:47::SCWBifWriter::hardware databse : design_1_wrapper_8
+TRACE::2026-05-03.21:59:47::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-03.21:59:47::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-03.21:59:47::SCWBifWriter::proc type : 
+TRACE::2026-05-03.21:59:47::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-03.21:59:47::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-03.21:59:47::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-03.21:59:47::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-04.09:55:21::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-04.09:55:21::SCWBifWriter::hardware databse : design_1_wrapper_4
+TRACE::2026-05-04.09:55:21::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-04.09:55:21::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-04.09:55:21::SCWBifWriter::proc type : 
+TRACE::2026-05-04.09:55:21::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-04.09:55:21::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-04.09:55:21::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-04.09:55:21::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-04.11:56:56::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-04.11:56:56::SCWBifWriter::hardware databse : design_1_wrapper_0
+TRACE::2026-05-04.11:56:56::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-04.11:56:56::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-04.11:56:56::SCWBifWriter::proc type : 
+TRACE::2026-05-04.11:56:56::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-04.11:56:56::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-04.11:56:56::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-04.11:56:56::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-04.12:05:36::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-04.12:05:36::SCWBifWriter::hardware databse : design_1_wrapper_0
+TRACE::2026-05-04.12:05:36::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-04.12:05:36::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-04.12:05:36::SCWBifWriter::proc type : 
+TRACE::2026-05-04.12:05:36::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-04.12:05:36::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-04.12:05:36::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-04.12:05:36::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-04.12:06:26::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-04.12:06:26::SCWBifWriter::hardware databse : design_1_wrapper_0
+TRACE::2026-05-04.12:06:26::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-04.12:06:26::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-04.12:06:26::SCWBifWriter::proc type : 
+TRACE::2026-05-04.12:06:26::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-04.12:06:26::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-04.12:06:26::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-04.12:06:26::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-04.12:19:04::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-04.12:19:04::SCWBifWriter::hardware databse : design_1_wrapper_0
+TRACE::2026-05-04.12:19:04::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-04.12:19:04::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-04.12:19:04::SCWBifWriter::proc type : 
+TRACE::2026-05-04.12:19:04::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-04.12:19:04::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-04.12:19:04::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-04.12:19:04::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-04.12:22:08::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-04.12:22:08::SCWBifWriter::hardware databse : design_1_wrapper_0
+TRACE::2026-05-04.12:22:08::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-04.12:22:08::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-04.12:22:08::SCWBifWriter::proc type : 
+TRACE::2026-05-04.12:22:08::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-04.12:22:08::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-04.12:22:08::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-04.12:22:08::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-04.12:37:46::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-04.12:37:46::SCWBifWriter::hardware databse : design_1_wrapper_0
+TRACE::2026-05-04.12:37:46::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-04.12:37:46::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-04.12:37:46::SCWBifWriter::proc type : 
+TRACE::2026-05-04.12:37:46::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-04.12:37:46::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-04.12:37:46::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-04.12:37:46::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-04.12:40:32::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-04.12:40:32::SCWBifWriter::hardware databse : design_1_wrapper_0
+TRACE::2026-05-04.12:40:32::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-04.12:40:32::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-04.12:40:32::SCWBifWriter::proc type : 
+TRACE::2026-05-04.12:40:32::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-04.12:40:32::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-04.12:40:32::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-04.12:40:32::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-04.12:47:08::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-04.12:47:08::SCWBifWriter::hardware databse : design_1_wrapper_0
+TRACE::2026-05-04.12:47:08::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-04.12:47:08::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-04.12:47:08::SCWBifWriter::proc type : 
+TRACE::2026-05-04.12:47:08::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-04.12:47:08::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-04.12:47:08::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-04.12:47:08::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-04.14:01:18::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-04.14:01:18::SCWBifWriter::hardware databse : design_1_wrapper_4
+TRACE::2026-05-04.14:01:18::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-04.14:01:18::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-04.14:01:18::SCWBifWriter::proc type : 
+TRACE::2026-05-04.14:01:18::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-04.14:01:18::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-04.14:01:18::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-04.14:01:18::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-04.20:08:33::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-04.20:08:33::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2026-05-04.20:08:33::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-04.20:08:33::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-04.20:08:33::SCWBifWriter::proc type : 
+TRACE::2026-05-04.20:08:33::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-04.20:08:33::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-04.20:08:33::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-04.20:08:33::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-04.20:11:34::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-04.20:11:34::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2026-05-04.20:11:34::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-04.20:11:34::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-04.20:11:34::SCWBifWriter::proc type : 
+TRACE::2026-05-04.20:11:34::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-04.20:11:34::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-04.20:11:34::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-04.20:11:34::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-04.20:14:22::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-04.20:14:22::SCWBifWriter::hardware databse : design_1_wrapper_8
+TRACE::2026-05-04.20:14:22::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-04.20:14:22::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-04.20:14:22::SCWBifWriter::proc type : 
+TRACE::2026-05-04.20:14:22::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-04.20:14:22::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-04.20:14:22::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-04.20:14:22::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-04.20:31:20::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-04.20:31:20::SCWBifWriter::hardware databse : design_1_wrapper_13
+TRACE::2026-05-04.20:31:20::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-04.20:31:20::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-04.20:31:20::SCWBifWriter::proc type : 
+TRACE::2026-05-04.20:31:20::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-04.20:31:20::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-04.20:31:20::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-04.20:31:20::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2026-05-04.22:47:48::SCWBifWriter::Found the complete platform E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+TRACE::2026-05-04.22:47:48::SCWBifWriter::hardware databse : design_1_wrapper_18
+TRACE::2026-05-04.22:47:48::SCWBifWriter::bitstream found in the design
+TRACE::2026-05-04.22:47:48::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-05-04.22:47:48::SCWBifWriter::proc type : 
+TRACE::2026-05-04.22:47:48::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-05-04.22:47:48::SCWBifWriter::Device type is : zynq
+TRACE::2026-05-04.22:47:48::SCWBifWriter::Writing BIF to file : E:/FPGA_Project/2020_2/CNN/cam_vdma_hdmi_true/7_proj/vmda_HDMI_cam/vitis/vdma_ctrl_system/Debug/system.bif
+TRACE::2026-05-04.22:47:48::SCWBifWriter::Writing the Zynq Baremetal bif 
